@@ -1,0 +1,2719 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta charset="UTF-8">
+	<title>html</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<!-- css -->
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i" rel="stylesheet">
+	<link href="plugins/ResponsiveTable/responsivetable.css" rel="stylesheet">
+	<link href="plugins/JQui/jquery-ui.css" rel="stylesheet" />
+	<link href="plugins/BootstrapSelect/bootstrap-select.css" rel="stylesheet" />
+	<link href="css/bootstrap.css" rel="stylesheet">
+	<link href="css/style.css" rel="stylesheet" media="screen">
+	<link href="css/media.css" rel="stylesheet" media="screen">
+	<link rel="stylesheet" href="plugins/CustomScrollbarr/jquery.mCustomScrollbar.css" />
+	<!-- js -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+	<script src="plugins/JQui/jquery-ui.min.js"></script>
+	<script src="plugins/Bootstrap/bootstrap.js"></script>
+	<script src="plugins/BootstrapSelect/bootstrap-select.js"></script>
+
+	<script src="plugins/CustomScrollbarr/jquery.mCustomScrollbar.js"></script>
+
+	<script src="plugins/ResponsiveTable/responsivetable.js"></script>
+
+</head>
+<body>
+
+	<header>
+		<div class="fll logo"></div>
+		<div class="flr lang-block">
+			<div class="lang-part">
+				<div class="dropdown">
+					<a href="#" class="dropdown-toggle cabinet-link" data-toggle="dropdown" aria-expanded="true">
+						<div class="ru_lang"></div>
+					</a>
+					<div class="dropdown-menu cabs">
+						<div class="lang-block-toggle">
+
+							<div class="account clearfix">
+								<ul>
+
+									<li>
+										<div class="en_lang"></div>
+									</li>
+
+								</ul>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="flr name-block">
+
+			<div class="account-block" data-toggle="modal" data-target="#bankTransactionModal">
+				<div class="top-part">
+					<div class="dropdown">
+						<a href="#" class="dropdown-toggle cabinet-link" data-toggle="dropdown" aria-expanded="true">Иван Иванов</a>
+						<div class="dropdown-menu cabs">
+							<div class="login-block">
+
+								<div class="account clearfix">
+									<ul>
+										<li>
+											<a href="#">Профиль</a>
+										</li>
+										<li>
+											<a href="#">Безопасность</a>
+										</li>
+										<li>
+											<a href="#">Партнерка</a>
+										</li>
+										<li>
+											<a href="#">Мерчант</a>
+										</li>
+										<li>
+											<a href="#">Мой обменник</a>
+										</li>
+										<li>
+											<a href="#">Поддержка</a>
+										</li>
+
+										<li>
+											<a href="#">Выход</a>
+										</li>
+									</ul>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+
+			</div>
+
+		</div>
+
+		<div class="navbar navbar-inverse navbar-fixed-top hidden-sm hidden-md hidden-lg">
+			<div class="container">
+				<div class="navbar-header">
+					<a class="navbar-brand" href="#"></a>
+					<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#responsive-menu">
+						<span class="sr-only">Открыть</span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					</button>
+				</div>
+				<div class="collapse navbar-collapse" id="responsive-menu">
+					<ul class="nav navbar-nav">
+						<li class="dropdown">
+							<a href="#" class="dropdown-toggle" data-toggle="dropdown">
+								Иван Иванов <b class="caret"></b>
+							</a>
+							<ul class="dropdown-menu">
+								<li>
+									<a href="#">Профиль</a>
+								</li>
+								<li>
+									<a href="#">Безопасность</a>
+								</li>
+								<li>
+									<a href="#">Партнерка</a>
+								</li>
+								<li>
+									<a href="#">Мерчант</a>
+								</li>
+								<li>
+									<a href="#">Мой обменник</a>
+								</li>
+								<li>
+									<a href="#">Поддержка</a>
+								</li>
+
+								<li>
+									<a href="#">Выход</a>
+								</li>
+								<li class="divider"></li>
+							</ul>
+						</li>
+						<li>
+							<a href="#">Cчета</a>
+						</li>
+
+						<li>
+							<a href="#">Пополнить</a>
+						</li>
+						<li>
+							<a href="#">Обменять</a>
+						</li>
+						<li>
+							<a href="#">Отправить</a>
+						</li>
+						<li>
+							<a href="#">Оплатить</a>
+						</li>
+						<li>
+							<a href="#">Инвойсы</a>
+						</li>
+						<li>
+							<a href="#">Ваучеры</a>
+						</li>
+						<li>
+							<a href="#">Вывести</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+
+	</header>
+
+	<section class="main-conainer c-scale6">
+
+		<div class="container">
+			<ul class="main-navigation">
+				<li>
+					<a href="">
+						<div class="i1"></div>
+						счета
+					</a>
+				</li>
+				<li>
+
+					<a href="">
+						<div class="i2"></div>
+						пополнить
+					</a>
+				</li>
+				<li>
+
+					<a href="">
+						<div class="i3"></div>
+						обменять
+					</a>
+				</li>
+				<li class="active">
+
+					<a href="">
+						<div class="i4"></div>
+						отправить
+					</a>
+				</li>
+				<li>
+
+					<a href="">
+						<div class="i5"></div>
+						оплатить
+					</a>
+				</li>
+				<li>
+
+					<a href="">
+						<div class="i6"></div>
+						инвойсы
+					</a>
+				</li>
+				<li>
+
+					<a href="">
+						<div class="i7"></div>
+						ваучеры
+					</a>
+				</li>
+				<li>
+
+					<a href="">
+						<div class="i8"></div>
+						вывести
+					</a>
+				</li>
+			</ul>
+
+			<div class="main-block cabinet-block settings-cabinet">
+				<h1>Профиль обменника</h1>
+
+				<div class="tabs-container">
+					<ul  class="nav nav-pills">
+						<li class="active">
+							<a  href="#1a" data-toggle="tab">Настройки обменника</a>
+						</li>
+						<li>
+							<a href="#2a" data-toggle="tab">Настройки курсов</a>
+						</li>
+
+						<li>
+							<a href="#3a" data-toggle="tab">История обменников</a>
+						</li>
+
+						<li>
+							<a href="#4a" data-toggle="tab">Отзывы</a>
+						</li>
+
+						<li>
+							<a href="#5a" data-toggle="tab">Отчеты</a>
+						</li>
+
+					</ul>
+
+					<div class="tab-content clearfix">
+						<div class="tab-pane active tbls1" id="1a">
+
+							<div class="tab-block">
+								<div class="form-cabinet">
+									<br>
+									<div class="row">
+										<div class="col-sm-6 small-ns">
+											<br>
+											<div class="form-section">
+												<label>
+													Логотип обменника
+													<div class="qws-area inl-area" data-toggle="tooltip" title="" data-original-title="tooltip text tooltip text tooltip text">?</div>
+												</label>
+												<div class="add-logo">
+													<img src="img/addlogo.jpg" class="img-responsive"></div>
+											</div>
+
+											<input class="input-file" id="my-file" type="file">
+											<label tabindex="0" for="my-file" class="input-file-trigger">Прикрепить изображение</label>
+										</div>
+
+										<div class="col-sm-6">
+											<br>
+											<div class="form-section">
+												<label>Название обменника</label>
+												<input type="text" class="form-control" placeholder=""></div>
+
+											<div class="form-section">
+												<label>Номер телефона</label>
+
+												<div class="input-group">
+													<div class="input-group-btn">
+
+														<select class="selectpicker">
+															<option>+996</option>
+															<option>+7</option>
+															<option>+7</option>
+															<option>+7</option>
+															<option>+7</option>
+															<option>+7</option>
+															<option>+7</option>
+															<option>+7</option>
+															<option>+7</option>
+															<option>+7</option>
+															<option>+7</option>
+															<option>+7</option>
+															<option>+7</option>
+															<option>+7</option>
+														</select>
+													</div>
+													<input type="text" class="form-control" aria-label="Text input with dropdown button"></div>
+
+											</div>
+
+											<div class="form-section">
+												<label>Контактный E-mail</label>
+												<input type="text" class="form-control" placeholder=""></div>
+
+										</div>
+
+										<div class="clearfix"></div>
+
+										<div class="ntl-tabs">
+
+											<div class="col-sm-12">
+												<div class="form-section-lb">
+													<label>Описание</label>
+												</div>
+
+												<ul  class="nav nav-pills">
+													<li class="active">
+														<a  href="#1b" data-toggle="tab">На русском</a>
+													</li>
+													<li>
+														<a href="#2b" data-toggle="tab">In English</a>
+													</li>
+
+												</ul>
+
+												<div class="tab-content clearfix">
+													<div class="tab-pane active" id="1b">
+														<div class="form-section">
+															<textarea class="form-control" name="" id="" cols="30" rows="10">textarea 1</textarea>
+														</div>
+													</div>
+													<div class="tab-pane" id="2b">
+														<div class="form-section">
+															<textarea class="form-control textarea" name="" id="" cols="30" rows="10">textarea 2</textarea>
+														</div>
+													</div>
+
+												</div>
+
+											</div>
+
+										</div>
+
+									</div>
+								</div>
+								<div class="max-section">
+									<h2 class="text-center tbl-ns">Назване раздела</h2>
+
+									<table class="tbl-d table merchant-table">
+										<thead>
+											<tr>
+												<td >Название</td>
+												<td class="text-center" >Сумма</td>
+												<td  class="text-center" data-breakpoints="xs sm"></td>
+												<td class="text-center" data-breakpoints="xs">Оперции</td>
+
+											</tr>
+										</thead>
+										<tbody>
+											<tr>
+												<td> <i class="fll sprite-ico sprite-icon_PAY"></i>
+													<span class="fll txt-lg">Payeer USD</span>
+												</td>
+												<td  class="text-center"  >
+													<div class="status-table status-nt"> <i class="sprite sprite-ico57"></i>
+														<div class="fll">500</div>
+													</div>
+												</td>
+												<td data-breakpoints="xs sm">
+													<button class="button gbnn" data-toggle="modal" data-target="#settingsModal">Настроить</button>
+												</td>
+												<td>
+													<div class="status-table green">
+														<button class="button gbnn3">-</button>
+														<button class="button gbnn2" data-toggle="modal" data-target="#reservModal">+</button>
+													</div>
+												</td>
+
+											</tr>
+
+											<tr>
+												<td>
+													<i class="fll sprite-ico sprite-icon_ADV"></i>
+													<span class="fll txt-lg">Advanced Cash USD</span>
+												</td>
+												<td  class="text-center" >
+													<div class="status-table status-nt">
+														<i class="sprite sprite-ico59"></i>
+														<div class="fll">500346.00</div>
+													</div>
+												</td>
+												<td data-breakpoints="xs sm">
+													<button class="button gbnn act-button">Активировать</button>
+												</td>
+												<td>
+													<div class="status-table green">
+														<button class="button gbnn3">-</button>
+														<button class="button gbnn2" data-toggle="modal" data-target="#reservModal">+</button>
+													</div>
+												</td>
+
+											</tr>
+
+											<tr>
+												<td>
+													<i class="fll sprite-ico sprite-icon_PYU"></i>
+													<span class="fll txt-lg">Perfect Money RUB</span>
+												</td>
+												<td  class="text-center"  >
+													<div class="status-table status-nt">
+														<i class="sprite sprite-ico60"></i>
+														<div class="fll">500346.00</div>
+													</div>
+												</td>
+												<td data-breakpoints="xs sm">
+													<button class="button gbnn" data-toggle="modal" data-target="#settingsModal">Настроить</button>
+												</td>
+												<td>
+													<div class="status-table green">
+														<button class="button gbnn3">-</button>
+														<button class="button gbnn2" data-toggle="modal" data-target="#reservModal">+</button>
+													</div>
+												</td>
+
+											</tr>
+
+										</tbody>
+									</table>
+
+									<div class="suss btn-mg">
+										<div class="button_border">
+											<button class="button" data-toggle="modal" data-target="#reservfullModal">Добавить резерв</button>
+										</div>
+									</div>
+
+									<div class="clearfix"></div>
+								</div>
+
+							</div>
+
+						</div>
+
+						<div class="tab-pane tbls2" id="2a">
+							<div class="tbl-vb text-center">
+								<br>settings 2</div>
+						</div>
+
+						<div class="tab-pane tbls3" id="3a">
+							<div class="tab-block top-mgn">
+
+								<table class="tbl-d table table-history-c">
+									<thead>
+										<tr>
+											<td class="tbt1">№</td>
+											<td class="text-centers tbt2"  data-breakpoints="xs sm ">Дата создания заявки</td>
+											<td  class="text-centers tbt3" data-breakpoints="xs sm md">Дата обновления заявки</td>
+											<td class="text-centers tbt4" >Отдают</td>
+											<td class="text-centers tbt5" >Получают</td>
+											<td class="text-centers tbt6" data-breakpoints="xs">Клиент</td>
+											<td class="text-centers tbt7" data-breakpoints="xs">Общая прибыль</td>
+											<td class="text-centers tbt8" data-breakpoints="xs"></td>
+											<td class="text-centers tbt9" data-breakpoints="xs sm">Платеж</td>
+											<td class="text-centers tbt10" data-breakpoints="xs sm">Выплата</td>
+										</tr>
+									</thead>
+									<tbody>
+
+										<tr class="hidden-xs hidden-sm">
+											<td >
+												<input type="text" class="form-control"></td>
+											<td class="text-centers" >
+												<div class="dates jrange2 input-group fll hidden-xs hidden-sm hidden-md">
+													<input type="text" class="form-control">
+													<div></div>
+
+												</div>
+											</td>
+											<td  class="text-centers" data-breakpoints="xs sm">
+												<div class="dates jrange2 input-group fll hidden-xs hidden-sm hidden-md">
+													<input type="text" class="form-control">
+													<div></div>
+
+												</div>
+											</td>
+											<td class="text-centers" data-breakpoints="xs"></td>
+											<td class="text-centers" data-breakpoints="xs"></td>
+											<td class="text-centers" data-breakpoints="xs"></td>
+											<td class="text-centers" data-breakpoints="xs"></td>
+											<td class="text-centers" data-breakpoints="xs"></td>
+											<td class="text-centers" data-breakpoints="xs">
+												<select class="selectpicker">
+													<option>пункт 1</option>
+													<option>пункт 2</option>
+													<option>пункт 1</option>
+													<option>пункт 2</option>
+													<option>пункт 1</option>
+													<option>пункт 2</option>
+													<option>пункт 1</option>
+													<option>пункт 2</option>
+													<option>пункт 1</option>
+													<option>пункт 2</option>
+
+												</select>
+											</td>
+											<td class="text-centers" data-breakpoints="xs">
+												<select class="selectpicker">
+													<option>пункт 1</option>
+													<option>пункт 2</option>
+													<option>пункт 1</option>
+													<option>пункт 2</option>
+													<option>пункт 1</option>
+													<option>пункт 2</option>
+													<option>пункт 1</option>
+													<option>пункт 2</option>
+													<option>пункт 1</option>
+													<option>пункт 2</option>
+												</select>
+											</td>
+
+										</tr>
+
+										<tr>
+											<td>25000</td>
+											<td>
+												04.04.2017
+												<br>20:25:45</td>
+											<td  data-breakpoints="xs sm">
+												04.04.2017
+												<br>20:25:45</td>
+											<td class="text-centers" data-breakpoints="xs"><i class="fll sprite-ico sprite-icon_PAY"></i>
+												<span class="fll txt-lg">$ 20</span></td>
+											<td class="text-centers" data-breakpoints="xs"><i class="fll sprite-ico sprite-icon_OYC"></i>
+												<span class="fll txt-lg">$ 50</span></td>
+											<td class="text-centers" data-breakpoints="xs">Вы</td>
+											<td class="text-centers" data-breakpoints="xs">$ -55.50</td>
+											<td class="text-centers" data-breakpoints="xs">
+												<button class="button detals-btn"  data-toggle="modal" data-target="#detals-modal">Детали</button>
+											</td>
+											<td class="text-centers" data-breakpoints="xs">
+												<button class="button red-border-btn">Ожидание</button>
+											</td>
+											<td class="text-centers" data-breakpoints="xs">
+												<button class="button yellow-border-btn">На модерации</button>
+											</td>
+
+										</tr>
+										
+										
+										<tr>
+											<td>25000</td>
+											<td>
+												04.04.2017
+												<br>20:25:45</td>
+											<td  data-breakpoints="xs sm">
+												04.04.2017
+												<br>20:25:45</td>
+											<td class="text-centers" data-breakpoints="xs"><i class="fll sprite-ico sprite-icon_PAY"></i>
+												<span class="fll txt-lg">$ 20</span></td>
+											<td class="text-centers" data-breakpoints="xs"><i class="fll sprite-ico sprite-icon_OYC"></i>
+												<span class="fll txt-lg">$ 50</span></td>
+											<td class="text-centers" data-breakpoints="xs">Вы</td>
+											<td class="text-centers" data-breakpoints="xs">$ -55.50</td>
+											<td class="text-centers" data-breakpoints="xs">
+												<button class="button detals-btn" data-toggle="modal" data-target="#detals-modal">Детали</button>
+											</td>
+											<td class="text-centers" data-breakpoints="xs">
+												<button class="button green-border-btn">Готово</button>
+											</td>
+											<td class="text-centers" data-breakpoints="xs">
+												<button class="button black-border-btn" data-toggle="modal" data-target="#vpl-modal">Выплатить</button>
+											</td>
+
+										</tr>
+
+										
+
+									</tbody>
+								</table>
+							</div>
+
+						</div>
+						<div class="tab-pane tbls4" id="4a">
+							<div class="panel-reviews">
+								<div class="form-cabinet">
+									<div class="normal-panel gold-panel">
+										<div class="panel-top">
+											<div class="fll">
+												Клиент
+												<span>15 апреля 2017, 00:20</span>
+											</div>
+											<div class="flr hand"></div>
+										</div>
+										<div class="panel-content">
+											Давно выяснено, что при оценке дизайна и композиции читаемый текст мешает сосредоточиться. Lorem Ipsum используют потому, что тот обеспечивает более или менее стандартное заполнение шаблона, а также реальное распределение букв и пробелов в абзацах, которое не получается при простой дубликации "Здесь ваш текст..
+										</div>
+										<div class="panel-footer-cab">
+											<div class="comment">
+												<a href="#">Комментировать</a>
+											</div>
+										</div>
+									</div>
+
+									<div class="normal-panel">
+										<div class="panel-top">
+											<div class="fll">
+												Клиент
+												<span>15 апреля 2017, 00:20</span>
+											</div>
+											<div class="flr hand"></div>
+										</div>
+										<div class="panel-content">
+											Давно выяснено, что при оценке дизайна и композиции читаемый текст мешает сосредоточиться. Lorem Ipsum используют потому, что тот обеспечивает более или менее стандартное заполнение шаблона, а также реальное распределение букв и пробелов в абзацах, которое не получается при простой дубликации "Здесь ваш текст..
+											<div class="hide-show">Свернуть (1)</div>
+											<div class="hidden-sv">
+												<div class="panel-in-block">
+
+													<div class="normal-panel">
+														<div class="panel-top">
+															<div class="fll">
+																Хозяин
+																<span>15 апреля 2017, 00:20</span>
+															</div>
+															<div class="flr hand"></div>
+														</div>
+														<div class="panel-content">
+															Давно выяснено, что при оценке дизайна и композиции читаемый текст мешает сосредоточиться. Lorem Ipsum используют потому, что тот обеспечивает более или менее стандартное заполнение шаблона, а также реальное распределение букв и пробелов в абзацах, которое не получается при простой дубликации "Здесь ваш текст..
+														</div>
+
+													</div>
+
+													<div class="normal-panel">
+														<div class="panel-top">
+															<div class="fll">
+																Клиент
+																<span>15 апреля 2017, 00:20</span>
+															</div>
+															<div class="flr hand"></div>
+														</div>
+														<div class="panel-content">
+															Давно выяснено, что при оценке дизайна и композиции читаемый текст мешает сосредоточиться. Lorem Ipsum используют потому, что тот обеспечивает более или менее стандартное заполнение шаблона, а также реальное распределение букв и пробелов в абзацах, которое не получается при простой дубликации "Здесь ваш текст..
+														</div>
+
+													</div>
+
+													<div class="normal-panel-text">
+
+														<textarea class="form-control" placeholder="Введите текст..."></textarea>
+														<div class="panel-footer-cab">
+															<div class="text-right stl-color flr">
+																<a href="#">Отмена</a>
+															</div>
+															<div class="text-right stl-color2 flr">
+																<a href="#">Оставить комментарий</a>
+															</div>
+
+														</div>
+													</div>
+
+												</div>
+											</div>
+										</div>
+
+									</div>
+
+									<br>
+									<nav>
+										<ul class="pagination">
+											<li class="page-item disabled">
+												<a class="page-link" href="#" tabindex="-1">
+													<span class="pagg-left"></span>
+													перв.
+												</a>
+											</li>
+											<li class="page-item hidden-xs">
+												<a class="page-link" href="#" aria-label="Previous">
+													<span class="pagg-left mll"></span>
+													<span class="sr-only"></span>
+												</a>
+											</li>
+											<li class="page-item">
+												<a class="page-link" href="#">1</a>
+											</li>
+											<li class="page-item active">
+												<a class="page-link" href="#">
+													2
+													<span class="sr-only">(current)</span>
+												</a>
+											</li>
+											<li class="page-item">
+												<a class="page-link" href="#">3</a>
+											</li>
+											<li class="page-item">
+												<a class="page-link" href="#">...</a>
+											</li>
+											<li class="page-item">
+												<a class="page-link" href="#">8</a>
+											</li>
+											<li class="page-item">
+												<a class="page-link" href="#">9</a>
+											</li>
+											<li class="page-item hidden-xs">
+												<a class="page-link" href="#" aria-label="Next">
+													<span class="pagg-right mlr"></span>
+													<span class="sr-only"></span>
+												</a>
+											</li>
+											<li class="page-item">
+												<a class="page-link" href="#">
+													посл.
+													<span class="pagg-right"></span>
+												</a>
+											</li>
+										</ul>
+									</nav>
+
+								</div>
+							</div>
+
+						</div>
+
+						<div class="tab-pane tbls5" id="5a">
+							<div class="tbl-vb text-center">
+								<br>settings 5</div>
+						</div>
+
+					</div>
+				</div>
+			</div>
+		</div>
+
+	</section>
+
+	<footer>
+		<div class="container">
+			<div class="top-footer">
+				<div class="ft1 fll">
+					<ul>
+						<li>
+							<a href="#">О компании</a>
+						</li>
+						<li>
+							<a href="#">Карта</a>
+						</li>
+						<li>
+							<a href="#">Тарифы</a>
+						</li>
+						<li>
+							<a href="#">FAQ’s</a>
+						</li>
+					</ul>
+				</div>
+				<div class="ft2 fll">
+					<ul>
+						<li>
+							<a href="#">Соглашение</a>
+						</li>
+						<li>
+							<a href="#">Партнёрам</a>
+						</li>
+						<li>
+							<a href="#">Обменикам</a>
+						</li>
+						<li>
+							<a href="#">Разработчикам</a>
+						</li>
+					</ul>
+				</div>
+				<div class="ft3 fll">
+					<ul>
+						<li>
+							<a href="#">FATCA</a>
+						</li>
+						<li>
+							<a href="#">ALM Политика</a>
+						</li>
+						<li>
+							<a href="#">Конфиденциальность</a>
+						</li>
+						<li>
+							<a href="#">Приемлемое использование</a>
+						</li>
+					</ul>
+				</div>
+				<div class="ft4 fll">
+					<ul>
+						<li>
+							<a href="#">Поддержка</a>
+						</li>
+						<li>
+							<a href="#">Контакты</a>
+						</li>
+					</ul>
+				</div>
+
+				<div class="ft5 flr">
+					<div class="social-top">
+						<div class="l1"></div>
+						<div class="l2"></div>
+						<div class="l3"></div>
+					</div>
+					<div class="clearfix"></div>
+					<div class="social-bottom">
+						<a href="#">
+							<div class="soc1"></div>
+						</a>
+						<a href="#">
+							<div class="soc2"></div>
+						</a>
+						<a href="#">
+							<div class="soc3"></div>
+						</a>
+						<a href="#">
+							<div class="soc4"></div>
+						</a>
+						<a href="#">
+							<div class="soc5"></div>
+						</a>
+					</div>
+				</div>
+			</div>
+			<div class="clearfix"></div>
+			<div class="bottom-footer">
+				<p>
+					Cifron is a trading name of Camelot LLC. Camelot LLC is authorized and regulated as an E-money Issuer and Payment Service Provider by the National Bank of Georgia with the reference # 0051-9004.
+					<br>
+					Camelot LLC International Financial Company certificate # 4224213. USA IRS FATCA GIIN (Global Intermediary Identification Number) T72UGX.99999.SL.268 .
+				</p>
+
+				<div class="pos-abs-footer">All rights reserved Cifron, 2017</div>
+
+			</div>
+		</div>
+	</footer>
+
+	<!-- общие скрипты -->
+
+	<script src="js/scripts.js"></script>
+
+	<script>
+	 
+		(function($){
+			$(window).load(function(){
+                
+				$("ul.dropdown-menu.inner").mCustomScrollbar({
+					setHeight:80,
+					theme:"dark",
+				});
+				
+			});
+		})(jQuery);
+
+
+
+		
+		
+		$(document).ready(function(){
+    $('[data-toggle="tooltip"]').tooltip(); 
+});
+
+
+window.onload = function () {
+$('.date-area').show()
+   };
+
+
+
+ jQuery(function($){
+  $('.table').footable();
+});
+
+
+
+var observe;
+if (window.attachEvent) {
+    observe = function (element, event, handler) {
+        element.attachEvent('on'+event, handler);
+    };
+}
+else {
+    observe = function (element, event, handler) {
+        element.addEventListener(event, handler, false);
+    };
+}
+function init () {
+    var text = document.getElementById('text');
+    function resize () {
+        text.style.height = 'auto';
+        text.style.height = text.scrollHeight+'px';
+    }
+    /* 0-timeout to get the already changed text */
+    function delayedResize () {
+        window.setTimeout(resize, 0);
+    }
+    observe(text, 'change',  resize);
+    observe(text, 'cut',     delayedResize);
+    observe(text, 'paste',   delayedResize);
+    observe(text, 'drop',    delayedResize);
+    observe(text, 'keydown', delayedResize);
+
+    text.focus();
+    text.select();
+    resize();
+}
+
+
+var textarea = document.querySelector('textarea');
+
+textarea.addEventListener('keydown', autosize);
+             
+function autosize(){
+  var el = this;
+  setTimeout(function(){
+    el.style.cssText = 'height:auto; padding:0';
+    // for box-sizing other than "content-box" use:
+    // el.style.cssText = '-moz-box-sizing:content-box';
+    el.style.cssText = 'height:' + el.scrollHeight + 'px';
+  },0);
+}
+
+
+
+
+var textarea = document.querySelector('textarea');
+
+textarea.addEventListener('keydown', autosize);
+             
+function autosize(){
+  var el = this;
+  setTimeout(function(){
+    el.style.cssText = 'height:auto; padding:0';
+    // for box-sizing other than "content-box" use:
+    // el.style.cssText = '-moz-box-sizing:content-box';
+    el.style.cssText = 'height:' + el.scrollHeight + 'px';
+  },0);
+}
+
+
+
+
+
+var observe2;
+if (window.attachEvent) {
+    observe2 = function (element, event, handler) {
+        element.attachEvent('on'+event, handler);
+    };
+}
+else {
+    observe2 = function (element, event, handler) {
+        element.addEventListener(event, handler, false);
+    };
+}
+function init () {
+    var text = document.getElementById('text');
+    function resize () {
+        text.style.height = 'auto';
+        text.style.height = text.scrollHeight+'px';
+    }
+    /* 0-timeout to get the already changed text */
+    function delayedResize () {
+        window.setTimeout(resize, 0);
+    }
+    observe2(text, 'change',  resize);
+    observe2(text, 'cut',     delayedResize);
+    observe2(text, 'paste',   delayedResize);
+    observe2(text, 'drop',    delayedResize);
+    observe2(text, 'keydown', delayedResize);
+
+    text.focus();
+    text.select();
+    resize();
+}
+
+
+var textarea2 = document.querySelector('.textarea');
+
+textarea2.addEventListener('keydown', autosize);
+             
+function autosize(){
+  var el = this;
+  setTimeout(function(){
+    el.style.cssText = 'height:auto; padding:0';
+    // for box-sizing other than "content-box" use:
+    // el.style.cssText = '-moz-box-sizing:content-box';
+    el.style.cssText = 'height:' + el.scrollHeight + 'px';
+  },0);
+}	
+
+
+
+
+
+
+ 
+ $( function() {
+    $( "#datepicker-modal" ).datepicker();
+  } );
+
+	
+	
+	$.datepicker._defaults.onAfterUpdate = null;
+var datepicker__updateDatepicker = $.datepicker._updateDatepicker;
+$.datepicker._updateDatepicker = function( inst ) {
+   datepicker__updateDatepicker.call( this, inst );
+   var onAfterUpdate = this._get(inst, 'onAfterUpdate');
+   if (onAfterUpdate)
+      onAfterUpdate.apply((inst.input ? inst.input[0] : null),
+         [(inst.input ? inst.input.val() : ''), inst]);
+}
+$(function() {
+   var cur = -1, prv = -1;
+   $('.jrange div')
+      .datepicker({
+            //numberOfMonths: 3,
+            changeMonth: true,
+            changeYear: true,
+        
+            beforeShowDay: function ( date ) {
+                  return [true, ( (date.getTime() >= Math.min(prv, cur) && date.getTime() <= Math.max(prv, cur)) ? 'date-range-selected' : '')];
+               },
+            onSelect: function ( dateText, inst ) {
+                  var d1, d2;
+                  prv = cur;
+                  cur = (new Date(inst.selectedYear, inst.selectedMonth, inst.selectedDay)).getTime();
+                  if ( prv == -1 || prv == cur ) {
+                     prv = cur;
+                     $('.jrange input').val( dateText );
+                  } else {
+                     d1 = $.datepicker.formatDate( 'mm/dd/yy', new Date(Math.min(prv,cur)), {} );
+                     d2 = $.datepicker.formatDate( 'mm/dd/yy', new Date(Math.max(prv,cur)), {} );
+                     $('.jrange input').val( d1+' - '+d2 );
+                  }
+               },
+            onChangeMonthYear: function ( year, month, inst ) {
+                  //prv = cur = -1;
+               },
+            onAfterUpdate: function ( inst ) {
+                  $('<button type="button" class="ui-datepicker-close ui-state-default ui-priority-primary ui-corner-all" data-handler="hide" data-event="click">Done</button>')
+                     .appendTo($('.jrange div .ui-datepicker-buttonpane'))
+                     .on('click', function () { $('.jrange div').hide(); });
+               }
+         })
+      .position({
+            my: 'left top',
+            at: 'left bottom',
+            of: $('.jrange input')
+         })
+      .hide();
+   $('.jrange input').on('focus', function (e) {
+         var v = this.value,
+             d;
+         try {
+            if ( v.indexOf(' - ') > -1 ) {
+               d = v.split(' - ');
+               prv = $.datepicker.parseDate( 'mm/dd/yy', d[0] ).getTime();
+               cur = $.datepicker.parseDate( 'mm/dd/yy', d[1] ).getTime();
+            } else if ( v.length > 0 ) {
+               prv = cur = $.datepicker.parseDate( 'mm/dd/yy', v ).getTime();
+            }
+         } catch ( e ) {
+            cur = prv = -1;
+         }
+         if ( cur > -1 )
+            $('.jrange div').datepicker('setDate', new Date(cur));
+         $('.jrange div').datepicker('refresh').show();
+      });
+});
+	
+	
+	
+	
+	
+
+
+document.querySelector("html").classList.add('js');
+
+var fileInput  = document.querySelector( ".input-file" ),  
+    button     = document.querySelector( ".input-file-trigger" ),
+    the_return = document.querySelector(".file-return");
+      
+button.addEventListener( "keydown", function( event ) {  
+    if ( event.keyCode == 13 || event.keyCode == 32 ) {  
+        fileInput.focus();  
+    }  
+});
+button.addEventListener( "click", function( event ) {
+   fileInput.focus();
+   return false;
+});  
+fileInput.addEventListener( "change", function( event ) {  
+    the_return.innerHTML = this.value;  
+});  
+
+
+
+
+
+ </script>
+
+	<div class="modal fade" id="settingsModal" tabindex="-1" role="dialog" aria-labelledby="settingsModal" aria-hidden="true">
+		<div class="modal-dialog">
+			<div class="modal-content">
+				<div class="modal-header">
+					<button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+				</div>
+				<div class="modal-body">
+					<h3>Настройка</h3>
+					<div class="form-cabinet">
+						<div class="form-section">
+							<label>Минимальное время</label>
+							<input type="text" class="form-control" placeholder=""></div>
+
+						<div class="form-section">
+							<label>Максимальное время</label>
+							<input type="text" class="form-control" placeholder=""></div>
+
+						<div class="form-section">
+							<label>Номер карты</label>
+							<input type="text" class="form-control" placeholder=""></div>
+					</div>
+					<div class="button_border">
+						<button class="button">Отправить</button>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div class="modal fade" id="reservModal" tabindex="-1" role="dialog" aria-labelledby="reservModal" aria-hidden="true">
+		<div class="modal-dialog">
+			<div class="modal-content">
+				<div class="modal-header">
+					<button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+				</div>
+				<div class="modal-body">
+					<h3>Увеличить резерв</h3>
+					<div class="form-cabinet">
+						<div class="form-section">
+							<label>Введите сумму</label>
+							<input type="text" class="form-control" placeholder=""></div>
+
+					</div>
+					<div class="button_border">
+						<button class="button">Увеличить</button>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div class="modal fade" id="reservfullModal" tabindex="-1" role="dialog" aria-labelledby="reservfullModal" aria-hidden="true">
+		<div class="modal-dialog">
+			<div class="modal-content">
+				<div class="modal-header">
+					<button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+				</div>
+				<div class="modal-body">
+					<h3>Резервы обменника</h3>
+					<form action="">
+						<div class="form-cabinet">
+
+							<div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
+								<div class="panel panel-default">
+									<div class="panel-heading" role="tab" id="headingo">
+										<h4 class="panel-title">
+											<a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseo" aria-expanded="false" aria-controls="collapseo">Платежные системы</a>
+										</h4>
+									</div>
+									<div id="collapseo" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingo">
+										<div class="panel-body">
+											<div class="scroller-b">
+												<div class="obm-block">
+													<i class="fll sprite-ico sprite-icon_PAY"></i>
+													<span class="fll txt-lg">Payeer USD</span>
+													<div class="flr">
+														<div class="checkbox">
+															<label>
+																<input type="checkbox" value="">
+																<span class="cr">
+																	<i class="cr-icon glyphicon glyphicon-ok"></i>
+																</span>
+
+															</label>
+														</div>
+													</div>
+												</div>
+
+												<div class="obm-block">
+													<i class="fll sprite-ico sprite-icon_PAY"></i>
+													<span class="fll txt-lg">Payeer USD</span>
+													<div class="flr">
+														<div class="checkbox">
+															<label>
+																<input type="checkbox" value="">
+																<span class="cr">
+																	<i class="cr-icon glyphicon glyphicon-ok"></i>
+																</span>
+
+															</label>
+														</div>
+													</div>
+												</div>
+
+												<div class="obm-block">
+													<i class="fll sprite-ico sprite-icon_PYU"></i>
+													<span class="fll txt-lg">Perfect Money RUB</span>
+													<div class="flr">
+														<div class="checkbox">
+															<label>
+																<input type="checkbox" value="">
+																<span class="cr">
+																	<i class="cr-icon glyphicon glyphicon-ok"></i>
+																</span>
+
+															</label>
+														</div>
+													</div>
+												</div>
+
+												<div class="obm-block">
+													<i class="fll sprite-ico sprite-icon_ADV"></i>
+													<span class="fll txt-lg">Advanced Cash USD</span>
+													<div class="flr">
+														<div class="checkbox">
+															<label>
+																<input type="checkbox" value="">
+																<span class="cr">
+																	<i class="cr-icon glyphicon glyphicon-ok"></i>
+																</span>
+
+															</label>
+														</div>
+													</div>
+												</div>
+
+												<div class="obm-block">
+													<i class="fll sprite-ico sprite-icon_PAY"></i>
+													<span class="fll txt-lg">Payeer USD</span>
+													<div class="flr">
+														<div class="checkbox">
+															<label>
+																<input type="checkbox" value="">
+																<span class="cr">
+																	<i class="cr-icon glyphicon glyphicon-ok"></i>
+																</span>
+
+															</label>
+														</div>
+													</div>
+												</div>
+
+												<div class="obm-block">
+													<i class="fll sprite-ico sprite-icon_PYU"></i>
+													<span class="fll txt-lg">Perfect Money RUB</span>
+													<div class="flr">
+														<div class="checkbox">
+															<label>
+																<input type="checkbox" value="">
+																<span class="cr">
+																	<i class="cr-icon glyphicon glyphicon-ok"></i>
+																</span>
+
+															</label>
+														</div>
+													</div>
+												</div>
+
+												<div class="obm-block">
+													<i class="fll sprite-ico sprite-icon_ADV"></i>
+													<span class="fll txt-lg">Advanced Cash USD</span>
+													<div class="flr">
+														<div class="checkbox">
+															<label>
+																<input type="checkbox" value="">
+																<span class="cr">
+																	<i class="cr-icon glyphicon glyphicon-ok"></i>
+																</span>
+
+															</label>
+														</div>
+													</div>
+												</div>
+												<div class="obm-block">
+													<i class="fll sprite-ico sprite-icon_PYU"></i>
+													<span class="fll txt-lg">Perfect Money RUB</span>
+													<div class="flr">
+														<div class="checkbox">
+															<label>
+																<input type="checkbox" value="">
+																<span class="cr">
+																	<i class="cr-icon glyphicon glyphicon-ok"></i>
+																</span>
+
+															</label>
+														</div>
+													</div>
+												</div>
+
+												<div class="obm-block">
+													<i class="fll sprite-ico sprite-icon_ADV"></i>
+													<span class="fll txt-lg">Advanced Cash USD</span>
+													<div class="flr">
+														<div class="checkbox">
+															<label>
+																<input type="checkbox" value="">
+																<span class="cr">
+																	<i class="cr-icon glyphicon glyphicon-ok"></i>
+																</span>
+
+															</label>
+														</div>
+													</div>
+												</div>
+
+												<div class="obm-block">
+													<i class="fll sprite-ico sprite-icon_PAY"></i>
+													<span class="fll txt-lg">Payeer USD</span>
+													<div class="flr">
+														<div class="checkbox">
+															<label>
+																<input type="checkbox" value="">
+																<span class="cr">
+																	<i class="cr-icon glyphicon glyphicon-ok"></i>
+																</span>
+
+															</label>
+														</div>
+													</div>
+												</div>
+
+												<div class="obm-block">
+													<i class="fll sprite-ico sprite-icon_PYU"></i>
+													<span class="fll txt-lg">Perfect Money RUB</span>
+													<div class="flr">
+														<div class="checkbox">
+															<label>
+																<input type="checkbox" value="">
+																<span class="cr">
+																	<i class="cr-icon glyphicon glyphicon-ok"></i>
+																</span>
+
+															</label>
+														</div>
+													</div>
+												</div>
+
+												<div class="obm-block">
+													<i class="fll sprite-ico sprite-icon_ADV"></i>
+													<span class="fll txt-lg">Advanced Cash USD</span>
+													<div class="flr">
+														<div class="checkbox">
+															<label>
+																<input type="checkbox" value="">
+																<span class="cr">
+																	<i class="cr-icon glyphicon glyphicon-ok"></i>
+																</span>
+
+															</label>
+														</div>
+													</div>
+												</div>
+
+												<div class="obm-block">
+													<i class="fll sprite-ico sprite-icon_PAY"></i>
+													<span class="fll txt-lg">Payeer USD</span>
+													<div class="flr">
+														<div class="checkbox">
+															<label>
+																<input type="checkbox" value="">
+																<span class="cr">
+																	<i class="cr-icon glyphicon glyphicon-ok"></i>
+																</span>
+
+															</label>
+														</div>
+													</div>
+												</div>
+
+												<div class="obm-block">
+													<i class="fll sprite-ico sprite-icon_PYU"></i>
+													<span class="fll txt-lg">Perfect Money RUB</span>
+													<div class="flr">
+														<div class="checkbox">
+															<label>
+																<input type="checkbox" value="">
+																<span class="cr">
+																	<i class="cr-icon glyphicon glyphicon-ok"></i>
+																</span>
+
+															</label>
+														</div>
+													</div>
+												</div>
+
+												<div class="obm-block">
+													<i class="fll sprite-ico sprite-icon_ADV"></i>
+													<span class="fll txt-lg">Advanced Cash USD</span>
+													<div class="flr">
+														<div class="checkbox">
+															<label>
+																<input type="checkbox" value="">
+																<span class="cr">
+																	<i class="cr-icon glyphicon glyphicon-ok"></i>
+																</span>
+
+															</label>
+														</div>
+													</div>
+												</div>
+
+												<div class="obm-block">
+													<i class="fll sprite-ico sprite-icon_PAY"></i>
+													<span class="fll txt-lg">Payeer USD</span>
+													<div class="flr">
+														<div class="checkbox">
+															<label>
+																<input type="checkbox" value="">
+																<span class="cr">
+																	<i class="cr-icon glyphicon glyphicon-ok"></i>
+																</span>
+
+															</label>
+														</div>
+													</div>
+												</div>
+
+												<div class="obm-block">
+													<i class="fll sprite-ico sprite-icon_PYU"></i>
+													<span class="fll txt-lg">Perfect Money RUB</span>
+													<div class="flr">
+														<div class="checkbox">
+															<label>
+																<input type="checkbox" value="">
+																<span class="cr">
+																	<i class="cr-icon glyphicon glyphicon-ok"></i>
+																</span>
+
+															</label>
+														</div>
+													</div>
+												</div>
+
+												<div class="obm-block">
+													<i class="fll sprite-ico sprite-icon_ADV"></i>
+													<span class="fll txt-lg">Advanced Cash USD</span>
+													<div class="flr">
+														<div class="checkbox">
+															<label>
+																<input type="checkbox" value="">
+																<span class="cr">
+																	<i class="cr-icon glyphicon glyphicon-ok"></i>
+																</span>
+
+															</label>
+														</div>
+													</div>
+												</div>
+
+												<div class="obm-block">
+													<i class="fll sprite-ico sprite-icon_PAY"></i>
+													<span class="fll txt-lg">Payeer USD</span>
+													<div class="flr">
+														<div class="checkbox">
+															<label>
+																<input type="checkbox" value="">
+																<span class="cr">
+																	<i class="cr-icon glyphicon glyphicon-ok"></i>
+																</span>
+
+															</label>
+														</div>
+													</div>
+												</div>
+
+												<div class="obm-block">
+													<i class="fll sprite-ico sprite-icon_PYU"></i>
+													<span class="fll txt-lg">Perfect Money RUB</span>
+													<div class="flr">
+														<div class="checkbox">
+															<label>
+																<input type="checkbox" value="">
+																<span class="cr">
+																	<i class="cr-icon glyphicon glyphicon-ok"></i>
+																</span>
+
+															</label>
+														</div>
+													</div>
+												</div>
+												<div class="obm-block">
+													<i class="fll sprite-ico sprite-icon_PAY"></i>
+													<span class="fll txt-lg">Payeer USD</span>
+													<div class="flr">
+														<div class="checkbox">
+															<label>
+																<input type="checkbox" value="">
+																<span class="cr">
+																	<i class="cr-icon glyphicon glyphicon-ok"></i>
+																</span>
+
+															</label>
+														</div>
+													</div>
+												</div>
+
+												<div class="obm-block">
+													<i class="fll sprite-ico sprite-icon_PYU"></i>
+													<span class="fll txt-lg">Perfect Money RUB</span>
+													<div class="flr">
+														<div class="checkbox">
+															<label>
+																<input type="checkbox" value="">
+																<span class="cr">
+																	<i class="cr-icon glyphicon glyphicon-ok"></i>
+																</span>
+
+															</label>
+														</div>
+													</div>
+												</div>
+
+												<div class="obm-block">
+													<i class="fll sprite-ico sprite-icon_ADV"></i>
+													<span class="fll txt-lg">Advanced Cash USD</span>
+													<div class="flr">
+														<div class="checkbox">
+															<label>
+																<input type="checkbox" value="">
+																<span class="cr">
+																	<i class="cr-icon glyphicon glyphicon-ok"></i>
+																</span>
+
+															</label>
+														</div>
+													</div>
+												</div>
+												<div class="obm-block">
+													<i class="fll sprite-ico sprite-icon_PAY"></i>
+													<span class="fll txt-lg">Payeer USD</span>
+													<div class="flr">
+														<div class="checkbox">
+															<label>
+																<input type="checkbox" value="">
+																<span class="cr">
+																	<i class="cr-icon glyphicon glyphicon-ok"></i>
+																</span>
+
+															</label>
+														</div>
+													</div>
+												</div>
+
+												<div class="obm-block">
+													<i class="fll sprite-ico sprite-icon_PYU"></i>
+													<span class="fll txt-lg">Perfect Money RUB</span>
+													<div class="flr">
+														<div class="checkbox">
+															<label>
+																<input type="checkbox" value="">
+																<span class="cr">
+																	<i class="cr-icon glyphicon glyphicon-ok"></i>
+																</span>
+
+															</label>
+														</div>
+													</div>
+												</div>
+
+												<div class="obm-block">
+													<i class="fll sprite-ico sprite-icon_ADV"></i>
+													<span class="fll txt-lg">Advanced Cash USD</span>
+													<div class="flr">
+														<div class="checkbox">
+															<label>
+																<input type="checkbox" value="">
+																<span class="cr">
+																	<i class="cr-icon glyphicon glyphicon-ok"></i>
+																</span>
+
+															</label>
+														</div>
+													</div>
+												</div>
+
+												<div class="obm-block">
+													<i class="fll sprite-ico sprite-icon_ADV"></i>
+													<span class="fll txt-lg">Advanced Cash USD</span>
+													<div class="flr">
+														<div class="checkbox">
+															<label>
+																<input type="checkbox" value="">
+																<span class="cr">
+																	<i class="cr-icon glyphicon glyphicon-ok"></i>
+																</span>
+
+															</label>
+														</div>
+													</div>
+												</div>
+
+											</div>
+
+										</div>
+									</div>
+								</div>
+								<div class="panel panel-default">
+									<div class="panel-heading" role="tab" id="headingTwo">
+										<h4 class="panel-title">
+											<a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">Онлайн банки</a>
+										</h4>
+									</div>
+									<div id="collapseTwo" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo">
+										<div class="panel-body">
+											<div class="scroller-b">
+												<div class="obm-block">
+													<i class="fll sprite-ico sprite-icon_PAY"></i>
+													<span class="fll txt-lg">Payeer USD</span>
+													<div class="flr">
+														<div class="checkbox">
+															<label>
+																<input type="checkbox" value="">
+																<span class="cr">
+																	<i class="cr-icon glyphicon glyphicon-ok"></i>
+																</span>
+
+															</label>
+														</div>
+													</div>
+												</div>
+
+												<div class="obm-block">
+													<i class="fll sprite-ico sprite-icon_PYU"></i>
+													<span class="fll txt-lg">Perfect Money RUB</span>
+													<div class="flr">
+														<div class="checkbox">
+															<label>
+																<input type="checkbox" value="">
+																<span class="cr">
+																	<i class="cr-icon glyphicon glyphicon-ok"></i>
+																</span>
+
+															</label>
+														</div>
+													</div>
+												</div>
+
+												<div class="obm-block">
+													<i class="fll sprite-ico sprite-icon_PAY"></i>
+													<span class="fll txt-lg">Payeer USD</span>
+													<div class="flr">
+														<div class="checkbox">
+															<label>
+																<input type="checkbox" value="">
+																<span class="cr">
+																	<i class="cr-icon glyphicon glyphicon-ok"></i>
+																</span>
+
+															</label>
+														</div>
+													</div>
+												</div>
+
+												<div class="obm-block">
+													<i class="fll sprite-ico sprite-icon_PYU"></i>
+													<span class="fll txt-lg">Perfect Money RUB</span>
+													<div class="flr">
+														<div class="checkbox">
+															<label>
+																<input type="checkbox" value="">
+																<span class="cr">
+																	<i class="cr-icon glyphicon glyphicon-ok"></i>
+																</span>
+
+															</label>
+														</div>
+													</div>
+												</div>
+
+												<div class="obm-block">
+													<i class="fll sprite-ico sprite-icon_ADV"></i>
+													<span class="fll txt-lg">Advanced Cash USD</span>
+													<div class="flr">
+														<div class="checkbox">
+															<label>
+																<input type="checkbox" value="">
+																<span class="cr">
+																	<i class="cr-icon glyphicon glyphicon-ok"></i>
+																</span>
+
+															</label>
+														</div>
+													</div>
+												</div>
+												<div class="obm-block">
+													<i class="fll sprite-ico sprite-icon_PAY"></i>
+													<span class="fll txt-lg">Payeer USD</span>
+													<div class="flr">
+														<div class="checkbox">
+															<label>
+																<input type="checkbox" value="">
+																<span class="cr">
+																	<i class="cr-icon glyphicon glyphicon-ok"></i>
+																</span>
+
+															</label>
+														</div>
+													</div>
+												</div>
+
+												<div class="obm-block">
+													<i class="fll sprite-ico sprite-icon_PYU"></i>
+													<span class="fll txt-lg">Perfect Money RUB</span>
+													<div class="flr">
+														<div class="checkbox">
+															<label>
+																<input type="checkbox" value="">
+																<span class="cr">
+																	<i class="cr-icon glyphicon glyphicon-ok"></i>
+																</span>
+
+															</label>
+														</div>
+													</div>
+												</div>
+
+												<div class="obm-block">
+													<i class="fll sprite-ico sprite-icon_ADV"></i>
+													<span class="fll txt-lg">Advanced Cash USD</span>
+													<div class="flr">
+														<div class="checkbox">
+															<label>
+																<input type="checkbox" value="">
+																<span class="cr">
+																	<i class="cr-icon glyphicon glyphicon-ok"></i>
+																</span>
+
+															</label>
+														</div>
+													</div>
+												</div>
+												<div class="obm-block">
+													<i class="fll sprite-ico sprite-icon_ADV"></i>
+													<span class="fll txt-lg">Advanced Cash USD</span>
+													<div class="flr">
+														<div class="checkbox">
+															<label>
+																<input type="checkbox" value="">
+																<span class="cr">
+																	<i class="cr-icon glyphicon glyphicon-ok"></i>
+																</span>
+
+															</label>
+														</div>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+
+								<div class="panel panel-default">
+									<div class="panel-heading" role="tab" id="heading14">
+										<h4 class="panel-title">
+											<a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapse14" aria-expanded="false" aria-controls="collapse14">Денежные переводы</a>
+										</h4>
+									</div>
+									<div id="collapse14" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading14">
+										<div class="panel-body">
+											<div class="scroller-b">
+												<div class="obm-block">
+													<i class="fll sprite-ico sprite-icon_PAY"></i>
+													<span class="fll txt-lg">Payeer USD</span>
+													<div class="flr">
+														<div class="checkbox">
+															<label>
+																<input type="checkbox" value="">
+																<span class="cr">
+																	<i class="cr-icon glyphicon glyphicon-ok"></i>
+																</span>
+
+															</label>
+														</div>
+													</div>
+												</div>
+
+												<div class="obm-block">
+													<i class="fll sprite-ico sprite-icon_PYU"></i>
+													<span class="fll txt-lg">Perfect Money RUB</span>
+													<div class="flr">
+														<div class="checkbox">
+															<label>
+																<input type="checkbox" value="">
+																<span class="cr">
+																	<i class="cr-icon glyphicon glyphicon-ok"></i>
+																</span>
+
+															</label>
+														</div>
+													</div>
+												</div>
+												<div class="obm-block">
+													<i class="fll sprite-ico sprite-icon_PAY"></i>
+													<span class="fll txt-lg">Payeer USD</span>
+													<div class="flr">
+														<div class="checkbox">
+															<label>
+																<input type="checkbox" value="">
+																<span class="cr">
+																	<i class="cr-icon glyphicon glyphicon-ok"></i>
+																</span>
+
+															</label>
+														</div>
+													</div>
+												</div>
+
+												<div class="obm-block">
+													<i class="fll sprite-ico sprite-icon_PYU"></i>
+													<span class="fll txt-lg">Perfect Money RUB</span>
+													<div class="flr">
+														<div class="checkbox">
+															<label>
+																<input type="checkbox" value="">
+																<span class="cr">
+																	<i class="cr-icon glyphicon glyphicon-ok"></i>
+																</span>
+
+															</label>
+														</div>
+													</div>
+												</div>
+
+												<div class="obm-block">
+													<i class="fll sprite-ico sprite-icon_ADV"></i>
+													<span class="fll txt-lg">Advanced Cash USD</span>
+													<div class="flr">
+														<div class="checkbox">
+															<label>
+																<input type="checkbox" value="">
+																<span class="cr">
+																	<i class="cr-icon glyphicon glyphicon-ok"></i>
+																</span>
+
+															</label>
+														</div>
+													</div>
+												</div>
+												<div class="obm-block">
+													<i class="fll sprite-ico sprite-icon_PAY"></i>
+													<span class="fll txt-lg">Payeer USD</span>
+													<div class="flr">
+														<div class="checkbox">
+															<label>
+																<input type="checkbox" value="">
+																<span class="cr">
+																	<i class="cr-icon glyphicon glyphicon-ok"></i>
+																</span>
+
+															</label>
+														</div>
+													</div>
+												</div>
+
+												<div class="obm-block">
+													<i class="fll sprite-ico sprite-icon_PYU"></i>
+													<span class="fll txt-lg">Perfect Money RUB</span>
+													<div class="flr">
+														<div class="checkbox">
+															<label>
+																<input type="checkbox" value="">
+																<span class="cr">
+																	<i class="cr-icon glyphicon glyphicon-ok"></i>
+																</span>
+
+															</label>
+														</div>
+													</div>
+												</div>
+
+												<div class="obm-block">
+													<i class="fll sprite-ico sprite-icon_ADV"></i>
+													<span class="fll txt-lg">Advanced Cash USD</span>
+													<div class="flr">
+														<div class="checkbox">
+															<label>
+																<input type="checkbox" value="">
+																<span class="cr">
+																	<i class="cr-icon glyphicon glyphicon-ok"></i>
+																</span>
+
+															</label>
+														</div>
+													</div>
+												</div>
+
+												<div class="obm-block">
+													<i class="fll sprite-ico sprite-icon_ADV"></i>
+													<span class="fll txt-lg">Advanced Cash USD</span>
+													<div class="flr">
+														<div class="checkbox">
+															<label>
+																<input type="checkbox" value="">
+																<span class="cr">
+																	<i class="cr-icon glyphicon glyphicon-ok"></i>
+																</span>
+
+															</label>
+														</div>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+
+								<div class="panel panel-default">
+									<div class="panel-heading" role="tab" id="heading14a">
+										<h4 class="panel-title">
+											<a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapse14a" aria-expanded="false" aria-controls="collapse14a">Наличные деньги</a>
+										</h4>
+									</div>
+									<div id="collapse14a" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading14a">
+										<div class="panel-body">
+											<div class="scroller-b">
+												<div class="obm-block">
+													<i class="fll sprite-ico sprite-icon_PAY"></i>
+													<span class="fll txt-lg">Payeer USD</span>
+													<div class="flr">
+														<div class="checkbox">
+															<label>
+																<input type="checkbox" value="">
+																<span class="cr">
+																	<i class="cr-icon glyphicon glyphicon-ok"></i>
+																</span>
+
+															</label>
+														</div>
+													</div>
+												</div>
+
+												<div class="obm-block">
+													<i class="fll sprite-ico sprite-icon_PYU"></i>
+													<span class="fll txt-lg">Perfect Money RUB</span>
+													<div class="flr">
+														<div class="checkbox">
+															<label>
+																<input type="checkbox" value="">
+																<span class="cr">
+																	<i class="cr-icon glyphicon glyphicon-ok"></i>
+																</span>
+
+															</label>
+														</div>
+													</div>
+												</div>
+
+												<div class="obm-block">
+													<i class="fll sprite-ico sprite-icon_PAY"></i>
+													<span class="fll txt-lg">Payeer USD</span>
+													<div class="flr">
+														<div class="checkbox">
+															<label>
+																<input type="checkbox" value="">
+																<span class="cr">
+																	<i class="cr-icon glyphicon glyphicon-ok"></i>
+																</span>
+
+															</label>
+														</div>
+													</div>
+												</div>
+
+												<div class="obm-block">
+													<i class="fll sprite-ico sprite-icon_PYU"></i>
+													<span class="fll txt-lg">Perfect Money RUB</span>
+													<div class="flr">
+														<div class="checkbox">
+															<label>
+																<input type="checkbox" value="">
+																<span class="cr">
+																	<i class="cr-icon glyphicon glyphicon-ok"></i>
+																</span>
+
+															</label>
+														</div>
+													</div>
+												</div>
+
+												<div class="obm-block">
+													<i class="fll sprite-ico sprite-icon_ADV"></i>
+													<span class="fll txt-lg">Advanced Cash USD</span>
+													<div class="flr">
+														<div class="checkbox">
+															<label>
+																<input type="checkbox" value="">
+																<span class="cr">
+																	<i class="cr-icon glyphicon glyphicon-ok"></i>
+																</span>
+
+															</label>
+														</div>
+													</div>
+												</div>
+												<div class="obm-block">
+													<i class="fll sprite-ico sprite-icon_PAY"></i>
+													<span class="fll txt-lg">Payeer USD</span>
+													<div class="flr">
+														<div class="checkbox">
+															<label>
+																<input type="checkbox" value="">
+																<span class="cr">
+																	<i class="cr-icon glyphicon glyphicon-ok"></i>
+																</span>
+
+															</label>
+														</div>
+													</div>
+												</div>
+
+												<div class="obm-block">
+													<i class="fll sprite-ico sprite-icon_PYU"></i>
+													<span class="fll txt-lg">Perfect Money RUB</span>
+													<div class="flr">
+														<div class="checkbox">
+															<label>
+																<input type="checkbox" value="">
+																<span class="cr">
+																	<i class="cr-icon glyphicon glyphicon-ok"></i>
+																</span>
+
+															</label>
+														</div>
+													</div>
+												</div>
+
+												<div class="obm-block">
+													<i class="fll sprite-ico sprite-icon_ADV"></i>
+													<span class="fll txt-lg">Advanced Cash USD</span>
+													<div class="flr">
+														<div class="checkbox">
+															<label>
+																<input type="checkbox" value="">
+																<span class="cr">
+																	<i class="cr-icon glyphicon glyphicon-ok"></i>
+																</span>
+
+															</label>
+														</div>
+													</div>
+												</div>
+
+												<div class="obm-block">
+													<i class="fll sprite-ico sprite-icon_ADV"></i>
+													<span class="fll txt-lg">Advanced Cash USD</span>
+													<div class="flr">
+														<div class="checkbox">
+															<label>
+																<input type="checkbox" value="">
+																<span class="cr">
+																	<i class="cr-icon glyphicon glyphicon-ok"></i>
+																</span>
+
+															</label>
+														</div>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+
+								<div class="panel panel-default">
+									<div class="panel-heading" role="tab" id="heading14b">
+										<h4 class="panel-title">
+											<a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapse14b" aria-expanded="false" aria-controls="collapse14b">Карты</a>
+										</h4>
+									</div>
+									<div id="collapse14b" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading14b">
+										<div class="panel-body">
+											<div class="scroller-b">
+												<div class="obm-block">
+													<i class="fll sprite-ico sprite-icon_PAY"></i>
+													<span class="fll txt-lg">Payeer USD</span>
+													<div class="flr">
+														<div class="checkbox">
+															<label>
+																<input type="checkbox" value="">
+																<span class="cr">
+																	<i class="cr-icon glyphicon glyphicon-ok"></i>
+																</span>
+
+															</label>
+														</div>
+													</div>
+												</div>
+												<div class="obm-block">
+													<i class="fll sprite-ico sprite-icon_PAY"></i>
+													<span class="fll txt-lg">Payeer USD</span>
+													<div class="flr">
+														<div class="checkbox">
+															<label>
+																<input type="checkbox" value="">
+																<span class="cr">
+																	<i class="cr-icon glyphicon glyphicon-ok"></i>
+																</span>
+
+															</label>
+														</div>
+													</div>
+												</div>
+
+												<div class="obm-block">
+													<i class="fll sprite-ico sprite-icon_PYU"></i>
+													<span class="fll txt-lg">Perfect Money RUB</span>
+													<div class="flr">
+														<div class="checkbox">
+															<label>
+																<input type="checkbox" value="">
+																<span class="cr">
+																	<i class="cr-icon glyphicon glyphicon-ok"></i>
+																</span>
+
+															</label>
+														</div>
+													</div>
+												</div>
+
+												<div class="obm-block">
+													<i class="fll sprite-ico sprite-icon_ADV"></i>
+													<span class="fll txt-lg">Advanced Cash USD</span>
+													<div class="flr">
+														<div class="checkbox">
+															<label>
+																<input type="checkbox" value="">
+																<span class="cr">
+																	<i class="cr-icon glyphicon glyphicon-ok"></i>
+																</span>
+
+															</label>
+														</div>
+													</div>
+												</div>
+
+												<div class="obm-block">
+													<i class="fll sprite-ico sprite-icon_PAY"></i>
+													<span class="fll txt-lg">Payeer USD</span>
+													<div class="flr">
+														<div class="checkbox">
+															<label>
+																<input type="checkbox" value="">
+																<span class="cr">
+																	<i class="cr-icon glyphicon glyphicon-ok"></i>
+																</span>
+
+															</label>
+														</div>
+													</div>
+												</div>
+
+												<div class="obm-block">
+													<i class="fll sprite-ico sprite-icon_PYU"></i>
+													<span class="fll txt-lg">Perfect Money RUB</span>
+													<div class="flr">
+														<div class="checkbox">
+															<label>
+																<input type="checkbox" value="">
+																<span class="cr">
+																	<i class="cr-icon glyphicon glyphicon-ok"></i>
+																</span>
+
+															</label>
+														</div>
+													</div>
+												</div>
+
+												<div class="obm-block">
+													<i class="fll sprite-ico sprite-icon_ADV"></i>
+													<span class="fll txt-lg">Advanced Cash USD</span>
+													<div class="flr">
+														<div class="checkbox">
+															<label>
+																<input type="checkbox" value="">
+																<span class="cr">
+																	<i class="cr-icon glyphicon glyphicon-ok"></i>
+																</span>
+
+															</label>
+														</div>
+													</div>
+												</div>
+
+												<div class="obm-block">
+													<i class="fll sprite-ico sprite-icon_PYU"></i>
+													<span class="fll txt-lg">Perfect Money RUB</span>
+													<div class="flr">
+														<div class="checkbox">
+															<label>
+																<input type="checkbox" value="">
+																<span class="cr">
+																	<i class="cr-icon glyphicon glyphicon-ok"></i>
+																</span>
+
+															</label>
+														</div>
+													</div>
+												</div>
+
+												<div class="obm-block">
+													<i class="fll sprite-ico sprite-icon_PAY"></i>
+													<span class="fll txt-lg">Payeer USD</span>
+													<div class="flr">
+														<div class="checkbox">
+															<label>
+																<input type="checkbox" value="">
+																<span class="cr">
+																	<i class="cr-icon glyphicon glyphicon-ok"></i>
+																</span>
+
+															</label>
+														</div>
+													</div>
+												</div>
+
+												<div class="obm-block">
+													<i class="fll sprite-ico sprite-icon_PYU"></i>
+													<span class="fll txt-lg">Perfect Money RUB</span>
+													<div class="flr">
+														<div class="checkbox">
+															<label>
+																<input type="checkbox" value="">
+																<span class="cr">
+																	<i class="cr-icon glyphicon glyphicon-ok"></i>
+																</span>
+
+															</label>
+														</div>
+													</div>
+												</div>
+
+												<div class="obm-block">
+													<i class="fll sprite-ico sprite-icon_ADV"></i>
+													<span class="fll txt-lg">Advanced Cash USD</span>
+													<div class="flr">
+														<div class="checkbox">
+															<label>
+																<input type="checkbox" value="">
+																<span class="cr">
+																	<i class="cr-icon glyphicon glyphicon-ok"></i>
+																</span>
+
+															</label>
+														</div>
+													</div>
+												</div>
+
+												<div class="obm-block">
+													<i class="fll sprite-ico sprite-icon_PAY"></i>
+													<span class="fll txt-lg">Payeer USD</span>
+													<div class="flr">
+														<div class="checkbox">
+															<label>
+																<input type="checkbox" value="">
+																<span class="cr">
+																	<i class="cr-icon glyphicon glyphicon-ok"></i>
+																</span>
+
+															</label>
+														</div>
+													</div>
+												</div>
+
+												<div class="obm-block">
+													<i class="fll sprite-ico sprite-icon_PYU"></i>
+													<span class="fll txt-lg">Perfect Money RUB</span>
+													<div class="flr">
+														<div class="checkbox">
+															<label>
+																<input type="checkbox" value="">
+																<span class="cr">
+																	<i class="cr-icon glyphicon glyphicon-ok"></i>
+																</span>
+
+															</label>
+														</div>
+													</div>
+												</div>
+
+												<div class="obm-block">
+													<i class="fll sprite-ico sprite-icon_ADV"></i>
+													<span class="fll txt-lg">Advanced Cash USD</span>
+													<div class="flr">
+														<div class="checkbox">
+															<label>
+																<input type="checkbox" value="">
+																<span class="cr">
+																	<i class="cr-icon glyphicon glyphicon-ok"></i>
+																</span>
+
+															</label>
+														</div>
+													</div>
+												</div>
+
+												<div class="obm-block">
+													<i class="fll sprite-ico sprite-icon_PAY"></i>
+													<span class="fll txt-lg">Payeer USD</span>
+													<div class="flr">
+														<div class="checkbox">
+															<label>
+																<input type="checkbox" value="">
+																<span class="cr">
+																	<i class="cr-icon glyphicon glyphicon-ok"></i>
+																</span>
+
+															</label>
+														</div>
+													</div>
+												</div>
+
+												<div class="obm-block">
+													<i class="fll sprite-ico sprite-icon_PYU"></i>
+													<span class="fll txt-lg">Perfect Money RUB</span>
+													<div class="flr">
+														<div class="checkbox">
+															<label>
+																<input type="checkbox" value="">
+																<span class="cr">
+																	<i class="cr-icon glyphicon glyphicon-ok"></i>
+																</span>
+
+															</label>
+														</div>
+													</div>
+												</div>
+
+												<div class="obm-block">
+													<i class="fll sprite-ico sprite-icon_ADV"></i>
+													<span class="fll txt-lg">Advanced Cash USD</span>
+													<div class="flr">
+														<div class="checkbox">
+															<label>
+																<input type="checkbox" value="">
+																<span class="cr">
+																	<i class="cr-icon glyphicon glyphicon-ok"></i>
+																</span>
+
+															</label>
+														</div>
+													</div>
+												</div>
+												<div class="obm-block">
+													<i class="fll sprite-ico sprite-icon_ADV"></i>
+													<span class="fll txt-lg">Advanced Cash USD</span>
+													<div class="flr">
+														<div class="checkbox">
+															<label>
+																<input type="checkbox" value="">
+																<span class="cr">
+																	<i class="cr-icon glyphicon glyphicon-ok"></i>
+																</span>
+
+															</label>
+														</div>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+
+								<div class="panel panel-default">
+									<div class="panel-heading" role="tab" id="heading14с">
+										<h4 class="panel-title">
+											<a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapse14с" aria-expanded="false" aria-controls="collapse14с">Банковские переводы</a>
+										</h4>
+									</div>
+									<div id="collapse14с" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading14с">
+										<div class="panel-body">
+											<div class="scroller-b">
+												<div class="obm-block">
+													<i class="fll sprite-ico sprite-icon_PAY"></i>
+													<span class="fll txt-lg">Payeer USD</span>
+													<div class="flr">
+														<div class="checkbox">
+															<label>
+																<input type="checkbox" value="">
+																<span class="cr">
+																	<i class="cr-icon glyphicon glyphicon-ok"></i>
+																</span>
+
+															</label>
+														</div>
+													</div>
+												</div>
+
+												<div class="obm-block">
+													<i class="fll sprite-ico sprite-icon_PYU"></i>
+													<span class="fll txt-lg">Perfect Money RUB</span>
+													<div class="flr">
+														<div class="checkbox">
+															<label>
+																<input type="checkbox" value="">
+																<span class="cr">
+																	<i class="cr-icon glyphicon glyphicon-ok"></i>
+																</span>
+
+															</label>
+														</div>
+													</div>
+												</div>
+
+												<div class="obm-block">
+													<i class="fll sprite-ico sprite-icon_ADV"></i>
+													<span class="fll txt-lg">Advanced Cash USD</span>
+													<div class="flr">
+														<div class="checkbox">
+															<label>
+																<input type="checkbox" value="">
+																<span class="cr">
+																	<i class="cr-icon glyphicon glyphicon-ok"></i>
+																</span>
+
+															</label>
+														</div>
+													</div>
+												</div>
+												<div class="obm-block">
+													<i class="fll sprite-ico sprite-icon_PAY"></i>
+													<span class="fll txt-lg">Payeer USD</span>
+													<div class="flr">
+														<div class="checkbox">
+															<label>
+																<input type="checkbox" value="">
+																<span class="cr">
+																	<i class="cr-icon glyphicon glyphicon-ok"></i>
+																</span>
+
+															</label>
+														</div>
+													</div>
+												</div>
+
+												<div class="obm-block">
+													<i class="fll sprite-ico sprite-icon_PYU"></i>
+													<span class="fll txt-lg">Perfect Money RUB</span>
+													<div class="flr">
+														<div class="checkbox">
+															<label>
+																<input type="checkbox" value="">
+																<span class="cr">
+																	<i class="cr-icon glyphicon glyphicon-ok"></i>
+																</span>
+
+															</label>
+														</div>
+													</div>
+												</div>
+
+												<div class="obm-block">
+													<i class="fll sprite-ico sprite-icon_ADV"></i>
+													<span class="fll txt-lg">Advanced Cash USD</span>
+													<div class="flr">
+														<div class="checkbox">
+															<label>
+																<input type="checkbox" value="">
+																<span class="cr">
+																	<i class="cr-icon glyphicon glyphicon-ok"></i>
+																</span>
+
+															</label>
+														</div>
+													</div>
+												</div>
+												<div class="obm-block">
+													<i class="fll sprite-ico sprite-icon_PAY"></i>
+													<span class="fll txt-lg">Payeer USD</span>
+													<div class="flr">
+														<div class="checkbox">
+															<label>
+																<input type="checkbox" value="">
+																<span class="cr">
+																	<i class="cr-icon glyphicon glyphicon-ok"></i>
+																</span>
+
+															</label>
+														</div>
+													</div>
+												</div>
+
+												<div class="obm-block">
+													<i class="fll sprite-ico sprite-icon_PYU"></i>
+													<span class="fll txt-lg">Perfect Money RUB</span>
+													<div class="flr">
+														<div class="checkbox">
+															<label>
+																<input type="checkbox" value="">
+																<span class="cr">
+																	<i class="cr-icon glyphicon glyphicon-ok"></i>
+																</span>
+
+															</label>
+														</div>
+													</div>
+												</div>
+
+												<div class="obm-block">
+													<i class="fll sprite-ico sprite-icon_ADV"></i>
+													<span class="fll txt-lg">Advanced Cash USD</span>
+													<div class="flr">
+														<div class="checkbox">
+															<label>
+																<input type="checkbox" value="">
+																<span class="cr">
+																	<i class="cr-icon glyphicon glyphicon-ok"></i>
+																</span>
+
+															</label>
+														</div>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+
+							</div>
+
+						</div>
+
+						<div class="button_border">
+							<button class="button">Сохранить</button>
+						</div>
+					</form>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<script type="text/javascript">
+	
+		$(".scroller-b").mCustomScrollbar({
+					axis:"y",	
+						setHeight:170,		
+					autoDraggerLength:false,
+					theme:"dark",
+				
+				});	
+</script>
+
+	<script>
+jQuery('.hide-show').click(function() { 
+     jQuery('.hidden-sv').slideToggle(''); 
+     jQuery('.hide-show').toggleClass("str-full");  
+});
+
+
+</script>
+<style>
+	@media (max-width: 1199px) {
+
+.main-block.cabinet-block.settings-cabinet ul.nav.nav-pills li {
+    padding-left: 10px !important;
+    padding-right: 10px !important;
+}
+}
+</style>
+
+
+
+
+
+
+
+	<div class="modal fade vpl-modal" id="vpl-modal" tabindex="-1" role="dialog" aria-labelledby="vpl-modal" aria-hidden="true">
+		<div class="modal-dialog">
+			<div class="modal-content">
+				<div class="modal-header">
+					<button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+				</div>
+				<div class="modal-body">
+					<h3>Выплатить</h3>
+
+					<div class="white-modal-padding">
+						
+<div class="form-grup-n">
+
+<label>Номер транзакции из платежной системы</label>
+<input class="form-control" placeholder="">
+
+</div>
+
+<div class="form-grup-n">
+<form action="#">
+												<label>Загрузка скриншота</label>
+												<div class="input-file-container">
+								
+													<input class="input-file2" id="my-file2" type="file">
+													<label tabindex="0" for="my-file2" class="input-file-trigger2">Выбрать файл</label>
+												</div>
+												<p class="file-return2"></p>
+											</form>
+</div>
+
+</div>
+
+
+<br>
+<div class="button_border">
+<button class="button">Сохранить</button>
+</div>
+</div>
+</div>
+</div>
+</div>
+
+
+
+
+
+
+	<div class="modal fade detals-modal" id="detals-modal" tabindex="-1" role="dialog" aria-labelledby="detals-modal" aria-hidden="true">
+		<div class="modal-dialog">
+			<div class="modal-content">
+				<div class="modal-header">
+					<button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+				</div>
+				<div class="modal-body">
+					<h3>Детали</h3>
+
+					<div class="white-modal-padding">
+<div class="tr-show">Что отдают</div>						
+<div class="form-grup-n">
+	<select class="selectpicker" disabled="disabled">
+<option data-content="<span class='label'>
+<i class='sprite-ico sprite-icon_PAY'></i>
+<strong class='txt-strg'>Payeer</strong>
+</span>
+">Payeer
+</option>
+
+
+
+</select>
+</div>
+<div class="form-grup-n">
+	<label>Номер карты</label>
+	<input class="form-control" value="4443 3455 5545 3455" disabled="disabled">
+</div>
+
+<div class="form-grup-n">
+	<label>Имя</label>
+	<input class="form-control" value="Иван">
+</div>
+
+
+<div class="form-grup-n">
+	<label>Фамилия</label>
+	<input class="form-control" value="Иванов">
+</div>
+
+<div class="form-grup-n">
+	<label>Отчество</label>
+	<input class="form-control" value="Иванович">
+</div>
+
+
+<div class="tr-show">Что получают</div>
+<div class="form-grup-n">
+	<select class="selectpicker" disabled="disabled">
+<option data-content="<span class='label'>
+<i class='sprite-ico sprite-icon_OYC'></i>
+<strong class='txt-strg'>Okpay</strong>
+</span>
+">Okpay
+</option>
+
+
+
+</select>
+
+</div>
+
+<div class="form-grup-n">
+	<label>Клиент</label>
+	<input class="form-control" placeholder="" value="С1345456323">
+</div>
+
+
+</div>
+
+
+
+
+
+
+
+</div>
+</div>
+</div>
+</div>
+
+
+</body>
+</html>

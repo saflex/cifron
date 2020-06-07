@@ -1,0 +1,1254 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta charset="UTF-8">
+	<title>html</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<!-- css -->
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i" rel="stylesheet">
+
+	<link href="plugins/JQui/jquery-ui.css" rel="stylesheet" />
+	<link href="plugins/BootstrapSelect/bootstrap-select.css" rel="stylesheet" />
+	<link href="css/bootstrap.css" rel="stylesheet">
+	<link href="css/style.css" rel="stylesheet" media="screen">
+	<link href="css/media.css" rel="stylesheet" media="screen">
+	<link rel="stylesheet" href="plugins/CustomScrollbarr/jquery.mCustomScrollbar.css" />
+	<!-- js -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+	<script src="plugins/JQui/jquery-ui.min.js"></script>
+	<script src="plugins/Bootstrap/bootstrap.js"></script>
+	<script src="plugins/BootstrapSelect/bootstrap-select.js"></script>
+
+	<script src="plugins/CustomScrollbarr/jquery.mCustomScrollbar.js"></script>
+
+</head>
+<body>
+
+	<header>
+		<div class="fll logo"></div>
+		<div class="flr lang-block">
+			<div class="lang-part">
+				<div class="dropdown">
+					<a href="#" class="dropdown-toggle cabinet-link" data-toggle="dropdown" aria-expanded="true">
+						<div class="ru_lang"></div>
+					</a>
+					<div class="dropdown-menu cabs">
+						<div class="lang-block-toggle">
+
+							<div class="account clearfix">
+								<ul>
+
+									<li>
+										<div class="en_lang"></div>
+									</li>
+
+								</ul>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="flr name-block">
+
+			<div class="account-block" data-toggle="modal" data-target="#bankTransactionModal">
+				<div class="top-part">
+					<div class="dropdown">
+						<a href="#" class="dropdown-toggle cabinet-link" data-toggle="dropdown" aria-expanded="true">Иван Иванов</a>
+						<div class="dropdown-menu cabs">
+							<div class="login-block">
+
+								<div class="account clearfix">
+									<ul>
+										<li>
+											<a href="#">Профиль</a>
+										</li>
+										<li>
+											<a href="#">Безопасность</a>
+										</li>
+										<li>
+											<a href="#">Партнерка</a>
+										</li>
+										<li>
+											<a href="#">Мерчант</a>
+										</li>
+										<li>
+											<a href="#">Мой обменник</a>
+										</li>
+										<li>
+											<a href="#">Поддержка</a>
+										</li>
+
+										<li>
+											<a href="#">Выход</a>
+										</li>
+									</ul>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+
+			</div>
+
+		</div>
+
+		<div class="navbar navbar-inverse navbar-fixed-top hidden-sm hidden-md hidden-lg">
+			<div class="container">
+				<div class="navbar-header">
+					<a class="navbar-brand" href="#"></a>
+					<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#responsive-menu">
+						<span class="sr-only">Открыть</span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					</button>
+				</div>
+				<div class="collapse navbar-collapse" id="responsive-menu">
+					<ul class="nav navbar-nav">
+						<li class="dropdown">
+							<a href="#" class="dropdown-toggle" data-toggle="dropdown">
+								Иван Иванов <b class="caret"></b>
+							</a>
+							<ul class="dropdown-menu">
+								<li>
+									<a href="#">Профиль</a>
+								</li>
+								<li>
+									<a href="#">Безопасность</a>
+								</li>
+								<li>
+									<a href="#">Партнерка</a>
+								</li>
+								<li>
+									<a href="#">Мерчант</a>
+								</li>
+								<li>
+									<a href="#">Мой обменник</a>
+								</li>
+								<li>
+									<a href="#">Поддержка</a>
+								</li>
+
+								<li>
+									<a href="#">Выход</a>
+								</li>
+								<li class="divider"></li>
+							</ul>
+						</li>
+						<li>
+							<a href="#">Cчета</a>
+						</li>
+
+						<li>
+							<a href="#">Пополнить</a>
+						</li>
+						<li>
+							<a href="#">Обменять</a>
+						</li>
+						<li>
+							<a href="#">Отправить</a>
+						</li>
+						<li>
+							<a href="#">Оплатить</a>
+						</li>
+						<li>
+							<a href="#">Инвойсы</a>
+						</li>
+						<li>
+							<a href="#">Ваучеры</a>
+						</li>
+						<li>
+							<a href="#">Вывести</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+
+	</header>
+
+	<section class="main-conainer c-scale4">
+
+		<div class="container">
+			<ul class="main-navigation">
+				<li>
+					<a href="">
+						<div class="i1"></div>
+						счета
+					</a>
+				</li>
+				<li>
+
+					<a href="">
+						<div class="i2"></div>
+						пополнить
+					</a>
+				</li>
+				<li>
+
+					<a href="">
+						<div class="i3"></div>
+						обменять
+					</a>
+				</li>
+				<li class="active">
+
+					<a href="">
+						<div class="i4"></div>
+						отправить
+					</a>
+				</li>
+				<li>
+
+					<a href="">
+						<div class="i5"></div>
+						оплатить
+					</a>
+				</li>
+				<li>
+
+					<a href="">
+						<div class="i6"></div>
+						инвойсы
+					</a>
+				</li>
+				<li>
+
+					<a href="">
+						<div class="i7"></div>
+						ваучеры
+					</a>
+				</li>
+				<li>
+
+					<a href="">
+						<div class="i8"></div>
+						вывести
+					</a>
+				</li>
+			</ul>
+
+			<div class="main-block">
+				<h1>Профиль</h1>
+
+				<div class="tabs-container">
+					<ul  class="nav nav-pills">
+						<li class="active">
+							<a  href="#1a" data-toggle="tab">Персональные данные</a>
+						</li>
+						<li>
+							<a href="#2a" data-toggle="tab">Место жительства</a>
+						</li>
+
+					</ul>
+
+					<div class="tab-content clearfix">
+						<div class="tab-pane active" id="1a">
+
+							<div class="tab-block">
+
+								<div class="form-cabinet">
+									<br>
+									<div class="row">
+										<div class="col-xs-12"></div>
+										<div class="col-sm-6">
+											<div class="form-section">
+												<label>Имя</label>
+												<input type="text" class="form-control" placeholder=""></div>
+										</div>
+										<div class="col-sm-6">
+											<div class="form-section">
+												<label>Фамилия</label>
+												<input type="text" class="form-control" placeholder=""></div>
+										</div>
+
+										<div class="clearfix"></div>
+
+										<p class="text-center document-p">Документ удостоверяющий личность</p>
+
+										<div class="accounts-area tranz-padding vauch-area size-tabs verif-top">
+
+											<div class="row">
+												<div class="account-block blk1 active yes-verification verif-block" data-placement="bottom" data-toggle="tooltip" title="" data-original-title="<div>Форматированный</div><div> текст в несколько строк</div>"  data-html="true">
+													<div class="padding-block">
+														<div class="account-icon"> <i class="sprite sprite-ico53"></i>
+															<div class="check-area-block"></div>
+														</div>
+														<h2>Document with adress
+registration</h2>
+<div class="txt-status"><span>Заявка принята</span></div>
+
+													</div>
+												</div>
+												<div class="account-block blk2 no-verification verif-block" data-placement="bottom" data-toggle="tooltip" title="" data-original-title="<div>Форматированный</div><div> текст в несколько строк</div>"  data-html="true">
+													<div class="padding-block">
+														<div class="account-icon"> <i class="sprite sprite-ico54"></i>
+															<div class="close-area-block"></div>
+														</div>
+																		<h2>Bank statement</h2>
+<div class="txt-status"><span>Заявка отклонена</span></div>
+													</div>
+												</div>
+												<div class="account-block blk3 yellow-verification verif-block" data-placement="bottom" data-toggle="tooltip" title="" data-original-title="<div>Форматированный</div><div> текст в несколько строк</div>"  data-html="true">
+													<div class="padding-block">
+														<div class="account-icon">
+															<i class="sprite sprite-ico55"></i>
+															<div class="check-area-block"></div>
+														</div>
+																				<h2>Utility bill</h2>
+<div class="txt-status"><span>Заявка отправлена</span></div>
+
+													</div>
+												</div>
+
+											</div>
+										</div>
+										
+									
+										<!-- tab-1 -->
+
+										<div class="transaction-table tab-blk1 tt1 input-area-table ">
+											<div class="col-sm-6">
+												<div class="form-section">
+													<label>Document number</label>
+													<input type="text" class="form-control rtsr" placeholder=""></div>
+											</div>
+											<div class="col-sm-6">
+												<div class="form-section">
+													<label>Issuing country</label>
+
+													<select class="selectpicker">
+														<option>Russia</option>
+														<option>USA</option>
+														<option>Russia</option>
+														<option>USA</option>
+														<option>Russia</option>
+														<option>USA</option>
+														<option>Russia</option>
+														<option>USA</option>
+														<option>Russia</option>
+														<option>USA</option>
+														<option>Russia</option>
+														<option>USA</option>
+													</select>
+
+												</div>
+											</div>
+
+											<div class="col-sm-6">
+												<div class="form-section sct-size">
+													<label>Issue date</label>
+													<div class="dates jrange input-group fll">
+														<input type="text" class="form-control">
+														<div></div>
+
+													</div>
+												</div>
+											</div>
+
+											<div class="col-sm-6">
+												<div class="form-section sct-size">
+													<label>Expiration date</label>
+													<div class="dates jrange2 input-group fll">
+														<input type="text" class="form-control">
+														<div></div>
+													</div>
+												</div>
+											</div>
+
+											<div class="clearfix"></div>
+
+											<div class="col-xs-12">
+												<form action="#">
+													<label>Скан паспорта</label>
+													<div class="input-file-container">
+														<span class="doc-no hidden-sm hidden-xs">Документ не выбран</span>
+														<div class="qws-area" data-toggle="tooltip" title="" data-original-title="tooltip text tooltip text tooltip text">?</div>
+														<input class="input-file" id="my-file" type="file">
+														<label tabindex="0" for="my-file" class="input-file-trigger">Выбрать файл</label>
+													</div>
+													<p class="file-return"></p>
+												</form>
+											</div>
+
+											
+
+										</div>
+
+										<!-- tab 2 -->
+										<div class="transaction-table tab-blk2 tt2"><div class="col-xs-12">Содержимое 2-й вкладки<br><br></div></div>
+										<!-- tab 2 -->
+
+										<!-- tab 3 -->
+										<div class="transaction-table tab-blk3 tt3"><div class="col-xs-12">Содержимое 3-й вкладки<br><br></div></div>
+										<!-- tab 3 -->
+
+
+
+										<div class="clearfix"></div>
+
+											<div class="col-sm-6">
+												<div class="form-section">
+													<label>Номер телефона</label>
+
+													<div class="input-group">
+														<div class="input-group-btn">
+
+															<select class="selectpicker">
+																<option>+996</option>
+																<option>+7</option>
+																<option>+7</option>
+																<option>+7</option>
+																<option>+7</option>
+																<option>+7</option>
+																<option>+7</option>
+																<option>+7</option>
+																<option>+7</option>
+																<option>+7</option>
+																<option>+7</option>
+																<option>+7</option>
+																<option>+7</option>
+																<option>+7</option>
+															</select>
+														</div>
+														<input type="text" class="form-control" aria-label="Text input with dropdown button"></div>
+
+												</div>
+											</div>
+											<div class="col-sm-6">
+												<div class="button_border fll verif-button red-btn">
+												<button class="button" style="">Верифицировать</button>
+											</div>
+											</div>
+											
+											<style>
+												.verif-button {
+    margin-top: 24px;
+    width: 100%;
+    height: 37px;
+}
+
+.verif-button .button {
+    height: 35px;
+}
+				
+		@media (max-width: 767px) {		
+				.verif-button {
+    margin-top: 0px;
+    margin-bottom: 20px;
+}
+}
+
+.red-btn .button {
+    background: #F44336;
+    color: #fff;
+}
+
+.green-btn .button {
+    background: #8BC34A !important;
+    color: #fff;
+}
+
+.verif-button.green-btn, .verif-button.red-btn {
+	    border-color: #AFBDC4 !important;
+}
+											</style>
+											
+											<div class="clearfix"></div>
+											
+											
+											<div class="col-sm-6">
+												<div class="form-section">
+													<label>Юзернейм в Телеграме</label>
+													<input type="text" class="form-control" placeholder=""></div>
+												<div class="txt-tbl">
+													<div class="fll">
+														<div class="pass-d">What is telegram?</div>
+													</div>
+													<div class="flr">
+														<div class="pass-d">Why do we ask for it?</div>
+													</div>
+												</div>
+											</div>
+											<div class="col-sm-6">
+												<div class="button_border fll verif-button green-btn">
+												<button class="button">Верифицировано</button>
+											</div>
+											</div>
+											
+											
+											
+											
+											
+											<div class="col-sm-12">
+												<h2>Информация о налоговом резидентстве для целей FATCA</h2>
+												<div class="block-in-form">
+													<div class="fll">
+														Являетесь ли Вы гражданином США или имеете статус налогового резидента США?
+														<div class="qws-area"data-toggle="tooltip" title="" data-original-title="<div>Форматированный</div><div> текст в несколько строк</div>"  data-html="true" >?</div>
+													</div>
+													<div class="flr">
+														<input type="checkbox" class="checkbox" id="checkbox">
+														<label for="checkbox"></label>
+													</div>
+													<div class="clearfix"></div>
+
+												</div>
+
+											</div>
+
+											<div class="clearfix"></div>
+											<br>
+
+											<div class="col-sm-12">
+												<div class="form-section">
+													<label>Конкретизируйте</label>
+													<input type="text" class="form-control rtsr" placeholder=""></div>
+											</div>
+
+
+
+										<div class="clearfix"></div>
+										<div class="col-xs-12 ">
+											<br>
+											<div class="button_border fll">
+												<button class="button">Сохранить</button>
+											</div>
+										</div>
+
+									</div>
+								</div>
+
+							</div>
+
+						</div>
+						<div class="tab-pane" id="2a">
+
+							<div class="tab-block">
+
+								<div class="form-cabinet">
+									<br>
+									<div class="row">
+										<div class="col-xs-12"></div>
+										<div class="col-sm-12">
+											<div class="form-section">
+												<label>Адрес</label>
+												<input type="text" class="form-control" placeholder=""></div>
+										</div>
+
+										<div class="col-sm-6">
+											<div class="form-section">
+												<label>Город</label>
+												<input type="text" class="form-control" placeholder=""></div>
+										</div>
+
+										<div class="col-sm-6">
+											<div class="form-section">
+												<label>Регион</label>
+												<input type="text" class="form-control" placeholder=""></div>
+										</div>
+
+										<div class="col-sm-6">
+											<div class="form-section">
+												<label>Страна</label>
+
+												<select class="selectpicker">
+													<option>Russia</option>
+													<option>USA</option>
+													<option>Russia</option>
+													<option>USA</option>
+													<option>Russia</option>
+													<option>USA</option>
+													<option>Russia</option>
+													<option>USA</option>
+													<option>Russia</option>
+													<option>USA</option>
+													<option>Russia</option>
+													<option>USA</option>
+												</select>
+
+											</div>
+										</div>
+
+										<div class="col-sm-6">
+											<div class="form-section">
+												<label>Почтовый индекс</label>
+												<input type="text" class="form-control" placeholder=""></div>
+										</div>
+
+										<div class="clearfix"></div>
+
+										<div class="col-xs-12">
+											<form action="#">
+												<label>Скан паспорта</label>
+												<div class="input-file-container">
+													<div class="qws-area" data-toggle="tooltip" title="" data-original-title="tooltip text tooltip text tooltip text">?</div>
+													<input class="input-file2" id="my-file2" type="file">
+													<label tabindex="0" for="my-file2" class="input-file-trigger2">Выбрать файл</label>
+												</div>
+												<p class="file-return2"></p>
+											</form>
+										</div>
+
+										<div class="numbers-block">
+
+											<div class="col-sm-12">
+												<h2 class="stat-h2">Информация о статусе Политически значимого лица</h2>
+												<div class="block-in-form">
+													<div class="fll">
+														1. Являетеся ли Клиент политически значимым лицом?
+														<div class="qws-area" data-toggle="tooltip" title="" data-original-title="tooltip text tooltip text tooltip text">?</div>
+													</div>
+													<div class="flr">
+														<input type="checkbox" class="checkbox" id="checkboxa">
+														<label for="checkboxa"></label>
+													</div>
+													<div class="clearfix"></div>
+
+												</div>
+
+											</div>
+
+											<div class="clearfix"></div>
+
+											<br>
+
+											<div class="col-sm-12">
+												<div class="form-section">
+													<label>Конкретизируйте</label>
+													<input type="text" class="form-control rtsr" placeholder=""></div>
+											</div>
+
+												<div class="clearfix"></div>
+
+										</div>
+
+		
+
+
+										<div class="numbers-block">
+
+											<div class="col-sm-12">
+											
+												<div class="block-in-form">
+													<div class="fll">
+														2. Являетеся ли Клиент членом семьи политически значимого лица?
+														<div class="qws-area" data-toggle="tooltip" title="" data-original-title="tooltip text tooltip text tooltip text">?</div>
+													</div>
+													<div class="flr">
+														<input checked="checked" type="checkbox" class="checkbox" id="checkboxb">
+														<label for="checkboxb"></label>
+													</div>
+													<div class="clearfix"></div>
+
+												</div>
+
+											</div>
+
+											<div class="clearfix"></div>
+
+
+										</div>
+
+
+										<div class="numbers-block padding-ns">
+
+											<div class="col-sm-12">
+											
+												<div class="block-in-form">
+													<div class="fll">
+														3. Являетеся ли Клиент лицом, которое тесно связано с политически значимым лицом?
+														<div class="qws-area" data-toggle="tooltip" title="" data-original-title="tooltip text tooltip text tooltip text">?</div>
+													</div>
+													<div class="flr">
+														<input type="checkbox" class="checkbox" id="checkboxc">
+														<label for="checkboxc"></label>
+													</div>
+													<div class="clearfix"></div>
+
+												</div>
+
+											</div>
+
+											<div class="clearfix"></div>
+
+											<br>
+
+											<div class="col-sm-12">
+												<div class="form-section">
+													<label>Конкретизируйте</label>
+													<input type="text" class="form-control rtsr" placeholder=""></div>
+											</div>
+
+										</div>
+
+
+
+										<div class="clearfix"></div>
+
+										<br>
+											<div class="col-xs-12">
+										<div class="button_border fll">
+											<button class="button">Сохранить</button>
+										</div>
+									</div>
+									</div>
+								</div>
+
+							</div>
+
+						</div>
+
+					</div>
+				</div>
+
+			</div>
+
+		</div>
+
+	</section>
+
+	<footer>
+		<div class="container">
+			<div class="top-footer">
+				<div class="ft1 fll">
+					<ul>
+						<li>
+							<a href="#">О компании</a>
+						</li>
+						<li>
+							<a href="#">Карта</a>
+						</li>
+						<li>
+							<a href="#">Тарифы</a>
+						</li>
+						<li>
+							<a href="#">FAQ’s</a>
+						</li>
+					</ul>
+				</div>
+				<div class="ft2 fll">
+					<ul>
+						<li>
+							<a href="#">Соглашение</a>
+						</li>
+						<li>
+							<a href="#">Партнёрам</a>
+						</li>
+						<li>
+							<a href="#">Обменикам</a>
+						</li>
+						<li>
+							<a href="#">Разработчикам</a>
+						</li>
+					</ul>
+				</div>
+				<div class="ft3 fll">
+					<ul>
+						<li>
+							<a href="#">FATCA</a>
+						</li>
+						<li>
+							<a href="#">ALM Политика</a>
+						</li>
+						<li>
+							<a href="#">Конфиденциальность</a>
+						</li>
+						<li>
+							<a href="#">Приемлемое использование</a>
+						</li>
+					</ul>
+				</div>
+				<div class="ft4 fll">
+					<ul>
+						<li>
+							<a href="#">Поддержка</a>
+						</li>
+						<li>
+							<a href="#">Контакты</a>
+						</li>
+					</ul>
+				</div>
+
+				<div class="ft5 flr">
+					<div class="social-top">
+						<div class="l1"></div>
+						<div class="l2"></div>
+						<div class="l3"></div>
+					</div>
+					<div class="clearfix"></div>
+					<div class="social-bottom">
+						<a href="#">
+							<div class="soc1"></div>
+						</a>
+						<a href="#">
+							<div class="soc2"></div>
+						</a>
+						<a href="#">
+							<div class="soc3"></div>
+						</a>
+						<a href="#">
+							<div class="soc4"></div>
+						</a>
+						<a href="#">
+							<div class="soc5"></div>
+						</a>
+					</div>
+				</div>
+			</div>
+			<div class="clearfix"></div>
+			<div class="bottom-footer">
+				<p>
+					Cifron is a trading name of Camelot LLC. Camelot LLC is authorized and regulated as an E-money Issuer and Payment Service Provider by the National Bank of Georgia with the reference # 0051-9004.
+					<br>
+					Camelot LLC International Financial Company certificate # 4224213. USA IRS FATCA GIIN (Global Intermediary Identification Number) T72UGX.99999.SL.268 .
+				</p>
+
+				<div class="pos-abs-footer">All rights reserved Cifron, 2017</div>
+
+			</div>
+		</div>
+	</footer>
+
+	<!-- общие скрипты -->
+
+	<script src="js/scripts.js"></script>
+
+	<div class="modal fade" id="bankTransactionModal" tabindex="-1" role="dialog" aria-labelledby="bankTransactionModal" aria-hidden="true">
+		<div class="modal-dialog">
+			<div class="modal-content">
+				<div class="modal-header">
+					<button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+				</div>
+				<div class="modal-body">
+					<h3>Банковский перевод</h3>
+
+					<div class="gray-modal-padding">
+						<div class="form-grup-n">
+							<label>Счет</label>
+							<select class="selectpicker">
+								<option data-content="<span class='label'>
+									<i class='sprite-ico sprite-icon_PAY'></i> <strong class='txt-strg'>Payeer USD</strong>
+								</span>
+								">Payeer USD
+							</option>
+							<option data-content="<span class='label'>
+								<i class='sprite-ico sprite-icon_OYC'></i> <strong class='txt-strg'>Okpay</strong>
+							</span>
+							">Okpay
+						</option>
+						<option data-content="<span class='label'>
+							<i class='sprite-ico sprite-icon_PAY'></i>
+							<strong class='txt-strg'>Payeer USD</strong>
+						</span>
+						">Payeer USD
+					</option>
+					<option data-content="<span class='label'>
+						<i class='sprite-ico sprite-icon_OYC'></i>
+						<strong class='txt-strg'>Okpay</strong>
+					</span>
+					">Okpay
+				</option>
+				<option data-content="<span class='label'>
+					<i class='sprite-ico sprite-icon_PAY'></i>
+					<strong class='txt-strg'>Payeer USD</strong>
+				</span>
+				">Payeer USD
+			</option>
+			<option data-content="<span class='label'>
+				<i class='sprite-ico sprite-icon_OYC'></i>
+				<strong class='txt-strg'>Okpay</strong>
+			</span>
+			">Okpay
+		</option>
+		<option data-content="<span class='label'>
+			<i class='sprite-ico sprite-icon_PAY'></i>
+			<strong class='txt-strg'>Payeer USD</strong>
+		</span>
+		">Payeer USD
+	</option>
+	<option data-content="<span class='label'>
+		<i class='sprite-ico sprite-icon_OYC'></i>
+		<strong class='txt-strg'>Okpay</strong>
+	</span>
+	">Okpay
+</option>
+<option data-content="<span class='label'>
+	<i class='sprite-ico sprite-icon_PAY'></i>
+	<strong class='txt-strg'>Payeer USD</strong>
+</span>
+">Payeer USD
+</option>
+<option data-content="<span class='label'>
+<i class='sprite-ico sprite-icon_OYC'></i>
+<strong class='txt-strg'>Okpay</strong>
+</span>
+">Okpay
+</option>
+
+</select>
+</div>
+<div class="form-grup-n">
+
+<label>Сумма пополнения</label>
+<input class="form-control" placeholder="Укажите желаемую сумму"></div>
+
+</div>
+
+<div class="button_border">
+<button class="button">Оплатить</button>
+</div>
+</div>
+</div>
+</div>
+</div>
+
+<script>
+	 
+		(function($){
+			$(window).load(function(){
+                
+				$("ul.dropdown-menu.inner").mCustomScrollbar({
+					setHeight:80,
+					theme:"dark",
+				});
+				
+			});
+		})(jQuery);
+		
+		
+		$(document).ready(function(){
+    $('[data-toggle="tooltip"]').tooltip(); 
+});
+
+
+
+
+
+
+
+
+
+ 
+ $( function() {
+    $( "#datepicker-modal" ).datepicker();
+  } );
+
+	
+	
+	$.datepicker._defaults.onAfterUpdate = null;
+var datepicker__updateDatepicker = $.datepicker._updateDatepicker;
+$.datepicker._updateDatepicker = function( inst ) {
+   datepicker__updateDatepicker.call( this, inst );
+   var onAfterUpdate = this._get(inst, 'onAfterUpdate');
+   if (onAfterUpdate)
+      onAfterUpdate.apply((inst.input ? inst.input[0] : null),
+         [(inst.input ? inst.input.val() : ''), inst]);
+}
+$(function() {
+   var cur = -1, prv = -1;
+   $('.jrange div')
+      .datepicker({
+            //numberOfMonths: 3,
+            changeMonth: true,
+            changeYear: true,
+        
+            beforeShowDay: function ( date ) {
+                  return [true, ( (date.getTime() >= Math.min(prv, cur) && date.getTime() <= Math.max(prv, cur)) ? 'date-range-selected' : '')];
+               },
+            onSelect: function ( dateText, inst ) {
+                  var d1, d2;
+                  prv = cur;
+                  cur = (new Date(inst.selectedYear, inst.selectedMonth, inst.selectedDay)).getTime();
+                  if ( prv == -1 || prv == cur ) {
+                     prv = cur;
+                     $('.jrange input').val( dateText );
+                  } else {
+                     d1 = $.datepicker.formatDate( 'mm/dd/yy', new Date(Math.min(prv,cur)), {} );
+                     d2 = $.datepicker.formatDate( 'mm/dd/yy', new Date(Math.max(prv,cur)), {} );
+                     $('.jrange input').val( d1+' - '+d2 );
+                  }
+               },
+            onChangeMonthYear: function ( year, month, inst ) {
+                  //prv = cur = -1;
+               },
+            onAfterUpdate: function ( inst ) {
+                  $('<button type="button" class="ui-datepicker-close ui-state-default ui-priority-primary ui-corner-all" data-handler="hide" data-event="click">Done</button>')
+                     .appendTo($('.jrange div .ui-datepicker-buttonpane'))
+                     .on('click', function () { $('.jrange div').hide(); });
+               }
+         })
+      .position({
+            my: 'left top',
+            at: 'left bottom',
+            of: $('.jrange input')
+         })
+      .hide();
+   $('.jrange input').on('focus', function (e) {
+         var v = this.value,
+             d;
+         try {
+            if ( v.indexOf(' - ') > -1 ) {
+               d = v.split(' - ');
+               prv = $.datepicker.parseDate( 'mm/dd/yy', d[0] ).getTime();
+               cur = $.datepicker.parseDate( 'mm/dd/yy', d[1] ).getTime();
+            } else if ( v.length > 0 ) {
+               prv = cur = $.datepicker.parseDate( 'mm/dd/yy', v ).getTime();
+            }
+         } catch ( e ) {
+            cur = prv = -1;
+         }
+         if ( cur > -1 )
+            $('.jrange div').datepicker('setDate', new Date(cur));
+         $('.jrange div').datepicker('refresh').show();
+      });
+});
+	
+	
+	
+	
+	
+	
+	
+	$.datepicker._defaults.onAfterUpdate2 = null;
+var datepicker__updateDatepicker2 = $.datepicker._updateDatepicker;
+$.datepicker._updateDatepicker = function( inst ) {
+   datepicker__updateDatepicker2.call( this, inst );
+   var onAfterUpdate2 = this._get(inst, 'onAfterUpdate2');
+   if (onAfterUpdate2)
+      onAfterUpdate2.apply((inst.input ? inst.input[0] : null),
+         [(inst.input ? inst.input.val() : ''), inst]);
+}
+$(function() {
+   var cur2 = -1, prv2 = -1;
+   $('.jrange2 div')
+      .datepicker({
+            //numberOfMonths: 3,
+
+            changeMonth: true,
+            changeYear: true,
+         
+            beforeShowDay: function ( date ) {
+                  return [true, ( (date.getTime() >= Math.min(prv2, cur2) && date.getTime() <= Math.max(prv2, cur2)) ? 'date-range-selected' : '')];
+               },
+            onSelect: function ( dateText, inst ) {
+                  var d1, d2;
+                  prv2 = cur2;
+                  cur2 = (new Date(inst.selectedYear, inst.selectedMonth, inst.selectedDay)).getTime();
+                  if ( prv2 == -1 || prv2 == cur2 ) {
+                     prv2 = cur2;
+                     $('.jrange2 input').val( dateText );
+                  } else {
+                     d1 = $.datepicker.formatDate( 'mm/dd/yy', new Date(Math.min(prv2,cur2)), {} );
+                     d2 = $.datepicker.formatDate( 'mm/dd/yy', new Date(Math.max(prv2,cur2)), {} );
+                     $('.jrange2 input').val( d1+' - '+d2 );
+                  }
+               },
+            onChangeMonthYear: function ( year, month, inst ) {
+                  //prv2 = cur2 = -1;
+               },
+            onAfterUpdate2: function ( inst ) {
+                  $('<button type="button" class="ui-datepicker-close ui-state-default ui-priority-primary ui-corner-all" data-handler="hide" data-event="click">Done</button>')
+                     .appendTo($('.jrange2 div .ui-datepicker-buttonpane'))
+                     .on('click', function () { $('.jrange2 div').hide(); });
+               }
+         })
+      .position({
+            my: 'left top',
+            at: 'left bottom',
+            of: $('.jrange2 input')
+         })
+      .hide();
+   $('.jrange2 input').on('focus', function (e) {
+         var v = this.value,
+             d;
+         try {
+            if ( v.indexOf(' - ') > -1 ) {
+               d = v.split(' - ');
+               prv2 = $.datepicker.parseDate( 'mm/dd/yy', d[0] ).getTime();
+               cur2 = $.datepicker.parseDate( 'mm/dd/yy', d[1] ).getTime();
+            } else if ( v.length > 0 ) {
+               prv2 = cur2 = $.datepicker.parseDate( 'mm/dd/yy', v ).getTime();
+            }
+         } catch ( e ) {
+            cur2 = prv2 = -1;
+         }
+         if ( cur2 > -1 )
+            $('.jrange2 div').datepicker('setDate', new Date(cur2));
+         $('.jrange2 div').datepicker('refresh').show();
+      });
+});
+
+		
+  $('.jrange').on('click', function () {
+  	$('.jrange .hasDatepicker').css('display', 'block');  
+   });
+  
+  $(document).mouseup(function (e) {
+    var container = $(".jrange .hasDatepicker");
+    if (container.has(e.target).length === 0){
+        container.hide();
+    }
+});
+
+
+
+document.querySelector("html").classList.add('js');
+
+var fileInput  = document.querySelector( ".input-file" ),  
+    button     = document.querySelector( ".input-file-trigger" ),
+    the_return = document.querySelector(".file-return");
+      
+button.addEventListener( "keydown", function( event ) {  
+    if ( event.keyCode == 13 || event.keyCode == 32 ) {  
+        fileInput.focus();  
+    }  
+});
+button.addEventListener( "click", function( event ) {
+   fileInput.focus();
+   return false;
+});  
+fileInput.addEventListener( "change", function( event ) {  
+    the_return.innerHTML = this.value;  
+}); 
+
+
+
+document.querySelector("html").classList.add('js');
+
+var fileInput2  = document.querySelector( ".input-file2" ),  
+    button2     = document.querySelector( ".input-file-trigger2" ),
+    the_return2 = document.querySelector(".file-return2");
+      
+button2.addEventListener( "keydown", function( event ) {  
+    if ( event.keyCode == 13 || event.keyCode == 32 ) {  
+        fileInput2.focus();  
+    }  
+});
+button2.addEventListener( "click", function( event ) {
+   fileInput2.focus();
+   return false;
+});  
+fileInput2.addEventListener( "change", function( event ) {  
+    the_return2.innerHTML = this.value;  
+});  
+ </script>
+
+<style>
+
+.checkbox {
+  vertical-align: top;
+  margin: 0 3px 0 0;
+  width: 17px;
+  height: 17px;
+}
+
+.checkbox + label {
+  cursor: pointer;
+}
+
+.checkbox:not(checked) {
+  position: absolute;
+  opacity: 0;
+}
+.checkbox:not(checked) + label {
+  position: relative; 
+  padding: 0 0 0 60px;
+}
+
+.checkbox:not(checked) + label:before {
+    content: 'Да';
+    position: absolute;
+    text-align: right;
+    padding-right: 23px;
+    padding-top: 6px;
+    top: -2px;
+    left: 0;
+    width: 97px;
+    height: 34px;
+    border-radius: 0;
+    background: none;
+    box-shadow: none;
+    border: 1px solid #b0bec5;
+}
+
+.checkbox:not(checked) + label:after {
+    content: '';
+    position: absolute;
+    top: -2px;
+    left: 0px;
+    width: 34px;
+    height: 34px;
+    border-radius: 0;
+    background: #8bc34a;
+    box-shadow: none;
+          background-position: -272px -162px;
+    background-image: url(img/spritesheet-all.png);
+    transition: all .1s;
+ 
+}
+
+
+.checkbox:checked + label:before {
+  background: #9FD468;
+}
+
+.checkbox:checked + label:after {
+  left: 26px;
+}
+
+
+.checkbox:checked + label:after {
+	  background-position: -132px -138px !important;
+
+    left: 63px;
+    background: #F1453D;
+        background-image: url(img/spritesheet-all.png);
+      
+}
+
+
+.checkbox:checked + label:before {
+    background: #fff;
+    content: 'Нет';
+    padding-left: 19px;
+    padding-top: 6px;
+    text-align: left;
+}
+
+
+.settings-area .checkbox:not(checked) + label:before {
+    position: absolute;
+    text-align: left;
+    padding-right: 23px;
+    padding-top: 6px;
+    top: -2px;
+    left: 0;
+    width: 370px;
+    height: 34px;
+    border-radius: 0;
+    background: none;
+    box-shadow: none;
+    border: 1px solid #b0bec5;
+}
+
+@media (max-width: 1500px) and (min-width: 1200px){
+	.accounts-area.tranz-padding.vauch-area.size-tabs .account-block {
+    width: 220px;
+}
+.accounts-area.tranz-padding.vauch-area {
+    padding-bottom: 26px;
+    margin-left: 18px;
+}
+}
+
+
+
+
+ </style>
+
+</body>
+</html>

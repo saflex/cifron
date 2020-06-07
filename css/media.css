@@ -1,0 +1,1766 @@
+
+@media (min-width: 992px){
+	.input-file-container:before {
+    display: none !important;
+}
+
+span.doc-no.hidden-sm.hidden-xs {
+    position: absolute;
+    left: 193px;
+    margin-top: 7px;
+    font-size: 16px;
+    color: #AFBDC4;
+}
+
+}
+
+@media (min-width: 992px) and (max-width: 1199px) { 
+.main-navigation li {
+    margin: 0px 10px;
+    font-size: 15px;
+    margin-bottom: -3px;
+    margin-top: -20px;
+}
+
+.main-block.cabinet-block  ul.nav.nav-pills li {
+    width: auto !important;
+    margin: 0;
+    padding-left: 10px;
+    padding-right: 10px;
+    display: inline-block; /* позволяем vertical-align выравнивать себя по вертикали */
+    vertical-align: middle; /* и выравниваем */
+        float: none;
+}
+
+.main-block.cabinet-block ul.nav.nav-pills{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    text-align: center;
+    display: block; /* добавляем блочность, если необходимо */
+}
+
+.flr.block-operations-right {
+    width: 210px;
+}
+
+.main-navigation {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    text-align: center;
+    display: block;
+    font-size: 0;
+    margin-top: 23px;
+    margin-bottom: -20px;
+}
+
+
+.padding-block h2 {
+    font-size: 20px;
+}
+.pos-abs-footer {
+    position: relative;
+    right: 0;
+    font-size: 12px;
+    color: #263238;
+    font-family: 'ProximaNova-Light';
+    margin-top: 6px;
+    float: right;
+}
+
+.tranz-padding {
+    margin-left: 65px;
+}
+}
+
+@media (min-width: 768px) and (max-width: 1199px) { 
+.table-shop table.footable-details.tbl-d.table tr{
+    width: 50%;
+    float: left;
+}
+}
+
+@media screen and (max-width: 991px) { 
+    .main-block.cabinet-block ul.nav.nav-pills li {
+    width: 100% !important;
+    margin: 0;
+}button.button.gbnn {
+    width: 152px;
+    margin-right: 10px;
+    margin-top: -2px;
+    margin-bottom: -2px;
+    float: right !important;
+}
+
+
+
+.flr.block-operations-right {
+    width: 100%;
+    margin-top: 22px;
+}
+    .main-block {
+    padding-bottom: 40px !important;
+}
+    
+tbody td.footable-last-visible:after {
+    content: '';
+    text-align: center;
+    float: right;
+    margin-right: 5px;
+    font-size: 20px;
+    position: absolute;
+    right: 0;
+    margin-top: 6px;
+    border-top: 4px dashed;
+    border-top: 4px solid \9;
+    border-right: 4px solid transparent;
+    border-left: 4px solid transparent;
+    position: absolute;
+    top: 11px;
+}
+
+.table-invoice tbody td {
+    padding-bottom: 4px !important;
+    vertical-align: middle !important;
+    padding-top: 0 !important;
+}
+
+.table-invoice tbody .checkbox {
+    margin-top: 12px;
+    margin-bottom: 8px;
+}
+
+.table-sect tbody td {
+    vertical-align: middle !important;
+}
+
+ .status-table i {
+    margin-top: 2px;
+}
+
+
+    .input-area-table input {
+    width: 176px;
+}
+
+.btn-download-area {
+    right: auto;
+    position: relative;
+    top: 0;
+    margin-bottom: 15px;
+}
+
+.btn-download-area .tooltip-area {
+    right: 0;
+}
+
+.block-icons {
+    margin-right: 20px;
+}
+    
+    .tranz-padding .account-block {
+    width: 33.3%;
+}
+.tranz-padding {
+    margin-left: 0;
+}
+    
+table{
+    table-layout: fixed;
+}
+    
+    .pos-abs-footer {
+    position: relative;
+    right: 0;
+    font-size: 12px;
+    color: #263238;
+    font-family: 'ProximaNova-Light';
+    margin-top: 6px;
+    float: right;
+}
+    
+    .top-footer .fll {
+    margin-right: 15px;
+}
+    
+    .logo {
+    margin-left: 10px;
+}
+
+.lang-part{
+    margin-right: -18px;
+}
+
+.main-navigation li {
+    margin: 0px -1px;
+    font-size: 15px;
+    margin-bottom: 2px;
+    margin-top: -11px;
+}
+
+.main-navigation {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    text-align: center;
+    display: block;
+    font-size: 0;
+    margin-top: 22px;
+    margin-bottom: -20px;
+}
+
+.gray-block {
+    padding: 15px;
+}
+
+.main-block {
+    padding: 14px;
+    padding-top: 45px;
+}
+
+.txt-info-area {
+    max-width: 69%;
+}
+
+.info-button {
+    max-width: 312px;
+}
+
+.padding-in-white {
+    padding: 7px 14px;
+}
+
+}
+
+
+
+@media screen and (max-width: 767px) { 
+    tr.footable-detail-row .text-center {
+    text-align: left !important;
+}
+
+body .account-block .padding-block h2 {
+    font-size: 13px !important;
+}
+
+section.error-404-bg {
+    text-align: center;
+    min-height: 317px;
+    padding-top: 58px;
+    border-bottom: 1px solid #c1c1c1;
+}
+
+
+span.fll.txt-lg {
+    max-width: 109px;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+.ntl-tabs textarea {
+    width: 99.8% !important;
+}
+.ntl-tabs {
+    margin-left: 0px;
+}
+
+ul.pagination {
+    margin-top: 15px;
+}
+
+
+table.tbl-d.table.merchant-table.max-size-880 td i {
+
+    margin-left: 0;
+}
+
+    .template-select {
+    max-width: 100%;
+}
+.main-block .style-tabs-partner .account-block {
+    width: 177px;
+}
+
+.partner-block ul.nav.nav-pills li {
+    width: 100%;
+}
+
+.form-cabinet .accounts-area.tranz-padding.vauch-area.size-tabs .account-block {
+    width: 30%;
+}
+
+.form-cabinet .accounts-area.tranz-padding.vauch-area.size-tabs h2 {
+    font-size: 14px;
+    margin-top: 27px;
+}
+
+.form-cabinet .accounts-area.tranz-padding.vauch-area.size-tabs .padding-block {
+    padding: 5px;
+}
+
+ .table-shop  .status-table i {
+    margin-top: 6px;
+}
+
+.block-in-form .flr {
+    margin-right: 37px;
+    float: right;
+    margin-top: -8px;
+}
+
+.main-block {
+    padding: 14px;
+    padding-top: 44px !important;
+}
+    
+    .plat-block .row {
+    margin-left: -10px;
+    margin-right: -10px;
+}
+
+.block-icons-in {
+    margin-left: 10px;
+    margin-right: 10px;
+    border: 1px solid #b0bec5;
+    height: 100px;
+}
+
+ .table-shop .input-area-table {
+    display: none;
+}
+    
+    .block-icons {
+    width: 50%;
+    height: 100px;
+    border: 1px solid #b0bec5;
+    float: left;
+    margin-right: 0;
+    margin-bottom: 21px;
+    border: 0;
+}
+    
+    
+    .fll.logo {
+    position: fixed;
+    z-index: 999;
+}
+
+.navbar-inverse {
+    background-color: #fff;
+    border-color: #fff;
+}
+
+.navbar-inverse .navbar-toggle {
+    border-color: #2F3B45;
+}
+
+.navbar-inverse .navbar-toggle .icon-bar{
+    background-color: #2F3B45;
+}
+
+.navbar-inverse .navbar-toggle:hover, .navbar-inverse .navbar-toggle:focus{
+    background: #fff;
+}
+
+.navbar-inverse .navbar-collapse, .navbar-inverse .navbar-form {
+    border-color: #CFD8DC;
+}
+
+body .navbar-inverse .navbar-nav > li > a{
+    color: #637F99;
+}
+
+.navbar-nav > li > a{
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.flr.lang-block {
+    position: fixed;
+    z-index: 999;
+    right: 68px;
+}
+
+.navbar-fixed-top, .navbar-fixed-bottom{
+    z-index: 998;
+}
+
+.navbar-inverse .navbar-nav > .open > a, .navbar-inverse .navbar-nav > .open > a:hover, .navbar-inverse .navbar-nav > .open > a:focus {
+    color: #fff;
+    background-color: #4C626C;
+    border: 0;
+}
+.navbar-inverse .navbar-nav .open .dropdown-menu .divider {
+    background-color: #d4d4d4;
+}
+
+.navbar-inverse{
+    box-shadow: 0 4px 12px rgba(0, 0, 0, .045);
+}
+
+.navbar-inverse .navbar-nav .open .dropdown-menu > li > a{
+    color: #637F99;
+    padding-left: 15px;
+}
+
+.navbar-inverse .navbar-nav .open .dropdown-menu > li > a:hover{
+    color: #29353B;
+}
+
+.navbar-inverse .navbar-nav .open .dropdown-menu > li > a:hover, .navbar-inverse .navbar-nav .open .dropdown-menu > li > a:focus{
+    
+}
+
+.navbar-inverse .navbar-nav > li > a:hover, .navbar-inverse .navbar-nav > li > a:focus{
+    color: #29353B;
+}
+    
+    
+    body .main-navigation{
+        display: none;
+    }
+    
+    
+    .top-footer .fll {
+    margin-right: 0;
+    width: 50%;
+}
+
+.top-footer ul {
+    margin-bottom: -8px !important;
+}
+    
+    .cabinet-link {
+    font-size: 13px;
+    color: #263238;
+    text-transform: uppercase;
+    margin-top: 16px;
+    display: block;
+    margin-right: 25px;
+}
+
+.main-block {
+    margin-top: 16px;
+}
+.logo {
+    margin-left: -50px;
+    margin-top: -2px;
+}
+.lang-part a div{
+    margin-top: -4px !important;
+}
+
+.lang-part .dropdown-menu.cabs {
+    margin-top: 13px;
+}
+
+.lang-part{
+    margin-right: -18px;
+}
+
+.main-navigation li {
+    margin: 0px -1px;
+    font-size: 15px;
+    margin-bottom: 2px;
+    margin-top: -11px;
+    width: 94px;
+}
+
+ul.main-navigation a {
+    font-size: 12px;
+    color: #ffffff;
+    text-transform: uppercase;
+}
+
+.main-navigation {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    text-align: center;
+    display: block;
+    font-size: 0;
+    margin-top: 39px;
+    margin-bottom: -20px;
+}
+
+.navbar-nav > li > a, .navbar-nav .open .dropdown-menu > li > a {
+    font-size: 17px;
+}
+ 
+
+.navbar-nav .open .dropdown-menu {
+    background: #4C626C;
+} 
+
+.navbar-inverse .navbar-nav .open .dropdown-menu > li > a{
+    color: #fff;
+} 
+
+.navbar-inverse .navbar-nav .open .dropdown-menu > li > a:hover{
+    color: #CFD8DC;
+}
+
+ul.nav.navbar-nav>li.dropdown>a {
+    padding-top: 15px;
+}
+
+header .navbar-nav {
+    margin: 7.5px -15px;
+    margin-top: 0;
+    margin-bottom: 0px;
+}
+
+.gray-block {
+    padding: 15px;
+}
+
+.main-block {
+    padding: 14px;
+    padding-top: 27px;
+}
+
+.txt-info-area {
+    max-width: 69%;
+}
+
+.info-button {
+    max-width: 312px;
+}
+
+.padding-in-white {
+    padding: 7px 14px;
+}
+
+.main-block .account-block {
+    width: 50%;
+}
+
+.input-area-table {
+    overflow: hidden;
+    margin-bottom: 30px;
+    margin-top: -5px;
+    padding-top: 14px;
+}
+
+.navbar-toggle .icon-bar {
+    display: block;
+    width: 27px;
+    height: 4px;
+    border-radius: 1px;
+}
+
+ .block-icons-in{
+     position: relative;
+ }
+ 
+ .block-icons:hover, .block-icons.no-active:hover{
+     background: none !important;
+ }
+  .block-icons:hover .block-icons-in{
+      background: #FFECB3;
+  }
+
+header .navbar-nav {
+    padding-bottom: 53px;
+}
+
+.navbar-toggle {
+    position: relative;
+    float: right;
+    padding: 9px 10px;
+    margin-top: 8px;
+    margin-right: 5px;
+    margin-bottom: 8px;
+    background-color: transparent;
+    background-image: none;
+    border: 1px solid transparent;
+    border-radius: 4px;
+}
+
+.tabs-container .nav-pills > li {
+    width: 100%;
+}
+
+.lang-part {
+    margin-right: -30px;
+    margin-top: -1px;
+}
+
+
+
+body .navbar-inverse .navbar-nav > li > a {
+    color: #29353B;
+    text-transform: uppercase;
+    font-size: 14px;
+    border-bottom: 1px solid #D7DFE2;
+    padding-top: 14px;
+    padding-bottom: 14px;
+}
+
+
+.transaction_block_modal {
+    padding: 15px;
+}
+
+.navbar-inverse .navbar-nav .open .dropdown-menu > li > a {
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 14px;
+}
+
+.navbar.navbar-inverse.navbar-fixed-top.hidden-sm.hidden-md.hidden-lg .caret {
+    margin-top: -1px;
+}
+
+body .navbar-inverse .navbar-nav > li:last-child > a{
+    border: 0;
+}
+
+.status-table i {
+    margin-left: 8px;
+}
+
+.pagination {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    float: none;
+    text-align: center;
+
+    display: block; /* добавляем блочность, если необходимо */
+    font-size: 0; /* убираем нежелательные отсутпы у дочерних элементов */
+}
+
+.pagination li {
+float: none;
+    padding: 0px;
+    margin: 0px;
+    font-size: 16px; /* возвращаем размер шрифта */
+    display: inline-block; /* позволяем vertical-align выравнивать себя по вертикали */
+    vertical-align: middle; /* и выравниваем */
+}
+
+
+.navbar-collapse {
+    height: 100vh;
+}
+.navbar-collapse { 
+    max-height: 100% !important; 
+}
+
+.card-block-area{
+    
+}
+
+.block-icons.no-active{
+    border: 0;
+    background: none;
+}
+
+.block-icons.no-active .block-icons-in{
+      background: #EDF0F2;
+    border: 1px solid #949393;
+}
+
+.input-area-card input {
+    font-size: 22px;
+}
+.main-conainer {
+    padding-bottom: 38px;
+}
+
+.block-bg2 .button {
+    margin-left: 29px;
+    width: 210px;
+    margin-top: 50px;
+    margin: 0 auto !important;
+    display: block;
+}
+
+.position-abs-buttons {
+    position: relative;
+    margin-top: 15px;
+    width: 220px;
+    margin-bottom: 82px !important;
+    margin: 0 auto;
+}
+
+.block-icons.no-active {
+    background: none !important;
+}
+
+
+}
+
+
+
+
+.modal-content{
+    border-radius: 0;
+}
+
+
+
+@media screen and (min-width: 501px) {
+.card-number-txt.fst {
+    padding-left: 30%;
+}
+
+.card-block-area {
+    color: #fff;
+    background: #263238;
+    max-width: 455px;
+    margin: 0 auto;
+    border-radius: 11px;
+    padding: 20px 30px;
+    margin-bottom: -1px;
+    margin-top: 23px;
+    font-family: 'ProximaNova-Light';
+    padding-bottom: 36px;
+    padding-top: 17px;
+}
+body.card-name {
+    font-size: 27px !important;
+    margin-top: -6px !important;
+    margin-bottom: 19px !important;
+}
+}
+
+
+
+
+@media screen and (max-width: 500px) { 
+.card-name-bottom-input input {
+    max-width: 75%;
+    display: inline-block;
+}
+
+.card-block-area {
+    padding: 20px 17px;
+
+}
+
+.card-block-area input {
+    font-size: 13px;
+}
+
+.card-block-area:before {
+    margin-top: 16px;
+    margin-left: -16px;
+    transform: scale(0.7);
+    -webkit-transform: scale(0.7);
+    -moz-transform: scale(0.7);
+}
+
+.xxxx-area {
+    font-size: 21px;
+    margin-top: 1px;
+}
+
+.valid {
+    margin-top: 4px;
+    margin-bottom: -8px;
+}
+
+.card-logo {
+    transform: scale(0.5);
+    -webkit-transform: scale(0.5);
+    -moz-transform: scale(0.5);
+    margin-left: 15px;
+    margin-top: -44px;
+    position: absolute;
+    right: 10px !important;
+    margin-bottom: 60px !important;
+    z-index: 111;
+}
+
+.card-number-txt {
+
+    margin-top: 0px;
+ 
+}
+
+.valid {
+    margin-left: 39%;
+}
+
+.card-name {
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 25px;
+    font-family: 'ProximaNova-Light';
+    margin-top: -7px;
+    margin-bottom: 5px;
+}
+
+}
+
+@media (min-width: 992px){
+    .input-file-container:before {
+    content: 'Документ не выбран...';
+    position: absolute;
+    margin-left: 193px;
+    margin-top: 7px;
+    font-size: 16px;
+    color: #afb6b9;
+}
+
+div#w0 .form-cabinet h2 {
+    font-family: 'ProximaNova-Light';
+    font-size: 25px;
+}
+
+.sec-block .form-cabinet h2{
+    text-align: center !important;
+}
+
+.js .file-return, .js .file-return2 {
+    font-style: italic;
+    font-size: .9em;
+    font-weight: bold;
+    margin-top: -45px;
+    margin-left: 193px;
+    color: #AFBDC4;
+    display: block;
+
+    z-index: 11;
+    position: absolute;
+    width: 353px;
+    overflow: hidden;
+    height: 17px;
+}
+.footable tbody tr:nth-child(2n) td {
+    background: #ECEFF1;
+}
+}
+
+.input-group button.btn.btn-secondary.dropdown-toggle:hover{
+    background: #FFECB3 !important;
+}
+
+.modal-open{
+    padding: 0 !important;
+}
+
+@media (min-width: 1200px){ 
+body.minimize-menus section.main-conainer {
+    padding-top: 123px !important;
+}
+
+.modal-body h1.small-h1.card-h1 {
+    font-size: 30px !important;
+    margin-bottom: 38px !important;
+}
+
+.main-block.inner-block {
+    min-height: 360px;
+}
+section.main-conainer {
+    min-height: 600px;
+}
+.table-shop table.footable-details.tbl-d.table tr {
+    width: 33.33%;
+    float: left;
+}
+.modal-dialog h3 {
+    margin-bottom: 20px;
+    text-transform: none;
+    font-size: 32px;
+     font-family: 'ProximaNovaT-Thin' !important;
+}
+}
+
+@media (min-width: 1501px){ 
+h2.text-center {
+    margin-bottom: 20px;
+}
+.modal-dialog h3 {
+    margin-bottom: 20px;
+    text-transform: none;
+    font-size: 36px;
+}
+.modal-body h1.small-h1.card-h1 {
+    font-size: 36px !important;
+    margin-bottom: 48px !important;
+}
+}
+
+.input-area-table input.rtsr:hover {
+    background: #fff !important;
+}
+
+.input-area-table input.rtsr:focus {
+    background: #ffecb3 !important;
+}
+
+.input-file-container {
+    margin-bottom: 19px;
+}
+
+
+.numbers-block {
+    margin-top: 18px;
+}
+
+h2.stat-h2 {
+    margin-bottom: 19px;
+    font-size: 24px;
+}
+
+
+@media (min-width: 1200px) and (max-width: 1500px) {
+
+
+.container {
+    max-width: 1078px;
+    margin: 0 auto;
+}
+    
+    
+section.main-conainer> .container {
+    margin-top: -169px;
+}
+.table-exc tbody td {
+    font-size: 12px;
+}
+.reg-area-n .button_border {
+    width: 197px;
+}
+    .logo {
+    transform: scale(0.4);
+    -webkit-transform: scale(0.4);
+    -moz-transform: scale(0.4);
+}
+.ru_lang {
+    transform: scale(0.6);
+    -webkit-transform: scale(0.6);
+    -moz-transform: scale(0.6);
+}
+.lang-part .dropdown-menu.cabs {
+    margin-top: 4px;
+    transform: scale(0.8);
+    -webkit-transform: scale(0.8);
+    -moz-transform: scale(0.8);
+}
+header {
+    background: #ffffff;
+    height: 48px;
+    position: fixed;
+    left: 0;
+    right: 0;
+    z-index: 996;
+    margin-top: -3px;
+}
+section.main-conainer {
+    padding-top: 52px;
+    background: #FFFFFF;
+    border-top: 143px solid #617E8A;
+}
+.pagination > li > a, .pagination > li > span {
+    font-size: 14px;
+    line-height: 23px;
+}
+.lang-part .dropdown-menu.cabs {
+    margin-top: 6px;
+}
+.main-navigation {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    text-align: center;
+    display: block;
+    font-size: 0;
+    margin-top: 20px;
+    margin-bottom: -20px;
+     transform: scale(0.9);
+    -webkit-transform: scale(0.9);
+    -moz-transform: scale(0.9);
+}
+
+.account-block span.filter-option.pull-left i{
+        transform: scale(0.9);
+    -webkit-transform: scale(0.9);
+    -moz-transform: scale(0.9);
+}
+.main-block h1 {
+    margin-top: -28px;
+    margin-bottom: 30px;
+    font-size: 26px;
+}
+
+.main-block {
+    max-width: 960px;
+}
+
+
+section.main-conainer {
+    margin-bottom: -99px;
+}
+.main-block {
+    margin-top: 6px;
+}
+.accounts-area.form-blocks .account-block .form-control {
+    height: 41px;
+    border-radius: 0;
+    box-shadow: none;
+}
+body .bootstrap-select.btn-group .dropdown-menu li a {
+    color: #263238 !important;
+    padding: 4px 14px 12px;
+    display: block;
+}
+.minimize-menus ul.main-navigation {
+    color: #26324E;
+    position: fixed;
+    top: -58px;
+    z-index: 998;
+}
+.flr.name-block a.dropdown-toggle.cabinet-link {
+    font-family: 'ProximaNova-Regular' !important;
+    font-size: 12px;
+    margin-top: 19px;
+    margin-right: 23px;
+}
+.accounts-area.form-blocks button.btn.dropdown-toggle.btn-default {
+    border-radius: 0;
+    height: 41px;
+    padding-top: 5px;
+}
+footer {
+    position: relative;
+    z-index: 1;
+}
+
+html, body, *{
+     font-family: 'ProximaNova-Light';
+}
+.lang-part {
+    margin-top: -9px;
+}
+
+h1, h2, .top-form-blocks .col-sm-6{
+     font-family: 'ProximaNovaT-Thin' !important;
+}
+.content-in-slider h2{
+     font-family: 'ProximaNova-Light' !important;
+}
+
+.flr.name-block a.dropdown-toggle.cabinet-link{
+ font-family: 'ProximaNova-Regular' !important; 
+}
+
+section.main-conainer {
+    padding-top: 52px;
+    background: #FFFFFF;
+    border-top: 164px solid #617E8A;
+}
+footer {
+    border-top: 1px solid #B0BEC5;
+}
+.main-block {
+    margin-top: 42px;
+}
+body .gray-block button.info-button {
+    max-width: 900px !important;
+}
+body section.main-conainer {
+    margin-bottom: -43px;
+}
+
+body .main-block h1 {
+    font-size: 28px;
+}
+body  .top-form-blocks .col-sm-6 {
+
+    font-size: 21px;
+
+}
+.small-h1 {
+    font-size: 20px !important;
+}
+.p-block {
+    font-size: 14px;
+}
+
+.block-icons {
+    width: 137px;
+    height: 100px;
+    border: 1px solid #b0bec5;
+    float: left;
+    margin-right: 11px;
+    margin-bottom: 11px;
+}
+.padding-block h3 {
+    font-size: 17px;
+    margin-top: 13px;
+}
+.padding-block h2 {
+    font-size: 16px !important;
+}
+
+.account-block .padding-block h2 {
+    font-size: 16px !important;
+    margin-bottom: 1px;
+}
+
+.tranz-form-block .form-checbox-area label {
+    font-size: 14px;
+    margin-bottom: 34px;
+}
+.transaction-table {
+    padding-top: 47px;
+}
+.main-navigation li{
+    cursor: pointer;
+}
+
+.tranz-form-block.summ-form input {
+    height: 41px;
+}
+.main-block .account-block .padding-block {
+    border: 1px solid #b0bec5;
+    margin: 6px;
+    height: 132px;
+}
+.tranz-form-block.summ-form .input-group-btn > .btn {
+    height: 41px;
+}
+.input-group-txt {
+    text-align: center;
+    font-size: 14px;
+    text-transform: uppercase;
+    margin-top: 13px;
+    margin-bottom: 8px;
+    font-family: 'ProximaNova-Light';
+}
+.button_border .button{
+    font-size: 15px !important;
+}
+.small-h1 {
+    font-size: 21px !important;
+}
+.bg-slide {
+    background-image: url(../img/bg.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 140%;
+    background-position: center top;
+    background-attachment: fixed;
+}
+.card-number-txt {
+    text-align: left;
+    margin-top: 27px;
+    font-size: 14px;
+    padding-left: 26%;
+}
+.card-name {
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 27px;
+    font-family: 'ProximaNova-Light';
+}
+.form-section .bootstrap-select.btn-group .dropdown-toggle .filter-option, .form-section .form-control {
+    font-size: 15px !important;
+}
+.form-section .form-control {
+    height: 40px;
+    border-radius: 0;
+    box-shadow: none;
+    border-color: #AFBDC4;
+    font-size: 16px;
+    font-family: 'ProximaNova-Light';
+}
+.form-section button.btn.dropdown-toggle.btn-default {
+    height: 40px;
+    border-radius: 0;
+}
+.template-select button.btn.dropdown-toggle.btn-default {
+    height: 40px;
+    border-radius: 0;
+    background: #263238;
+    color: #fff;
+}
+.plat-block-new .block-icons {
+    width: 208px;
+    height: 135px;
+    border: 1px solid #b0bec5;
+    float: left;
+    margin-right: 14px;
+    margin-bottom: 12px;
+}
+.plat-block-new .block-img i {
+    transform: scale(1.2);
+    -webkit-transform: scale(1.2);
+    -moz-transform: scale(1.2);
+    margin-top: 35px;
+    margin-bottom: 19px;
+}
+.plat-block-new .p-block {
+    display: block;
+    clear: both;
+    text-align: center;
+    font-size: 16px;
+    color: #455A64;
+    margin-top: 16px;
+}
+.plat-block-new .sale-block {
+    top: 1px;
+    position: absolute;
+    right: 1px;
+    padding: 5px 6px;
+    background: #263238;
+    color: #fff;
+    font-size: 14px;
+}
+.place-nl {
+    font-size: 15px;
+    letter-spacing: 1px;
+    text-align: center;
+}
+.dnl-area {
+    font-size: 28px !important;
+}
+p.popl {
+    text-align: center;
+    line-height: 21px;
+    font-size: 16px;
+    margin-bottom: -10px;
+}
+h2 {
+    font-size: 22px;
+}
+.txt-info-area {
+    font-size: 14px;
+}
+tr.footable-header td {
+    font-size: 13px !important;
+}
+.table-invoice td:nth-child(5) {
+    width: 287px;
+}
+.inf-block {
+    font-size: 13px;
+}.fll.txt-info-block {
+    font-size: 13px;
+}
+.block-operations-right-txt h3 {
+    margin-top: 0;
+    font-size: 15px;
+}
+.flr.block-operations-right {
+    width: 215px;
+}
+.txt-block-ns.text-center {
+    font-size: 15px;
+}
+.buttons-ns, .mx-size h4>a{
+    font-size: 15px;
+}
+.table-sect tbody td, .table-invoice tbody td {
+    font-size: 12px;
+}
+.tabs-container ul.nav.nav-pills li a {
+    text-align: center;
+        font-family: 'ProximaNovaT-Thin' !important
+    font-size: 19px;
+}
+.form-cabinet h2 {
+    font-size: 21px;
+}
+.suss .button_border {
+    width: 214px;
+}
+
+.button {
+    font-size: 12px;
+
+}
+.tbt4 {
+    width: 144px;
+}
+.dates.jrange2.input-group.fll.hidden-xs:before{
+    display: none;
+}
+.caret {
+    border-top: 4px dashed;
+    border-right: 4px solid transparent;
+    border-left: 4px solid transparent;
+}
+
+.js .input-file-trigger, .js .input-file-trigger2,  .js .input-file-trigger1,  .js .input-file-trigger{
+    font-size: 14px;
+        line-height: 22px;
+}
+
+footer {
+    margin-top: -40px;
+    padding-top: 39px;
+}
+
+.gray-block {
+    background: #fff;
+    padding: 0;
+}
+
+.gray-block button.info-button {
+    max-width: 988px !important;
+}
+
+.hidde-xpl {
+    display: none;
+}
+
+}
+@media (min-width: 1501px) {
+.more_btn{
+    display: none;
+}
+}
+
+@media (min-width: 1501px) {
+.more_btn{
+    display: none;
+}
+h1, h2, .top-form-blocks .col-sm-6 {
+    font-family: 'ProximaNovaT-Thin' !important;
+}
+html, body, * {
+    font-family: 'ProximaNova-Light';
+}
+.content-in-slider h2{
+     font-family: 'ProximaNova-Light' !important;
+}
+.flr.name-block a.dropdown-toggle.cabinet-link {
+    font-family: 'ProximaNova-Regular' !important;
+    margin-top: 19px;
+}
+
+}
+
+@media (max-width: 1199px) {
+.more_btn{
+    display: none;
+}
+
+}
+
+
+@media (max-width: 991px) {
+
+.tabs-container ul.nav.nav-pills li a{
+     font-family: 'ProximaNova-Light' !important;
+}
+    
+    h1 {
+    font-size: 32px;
+}
+    
+.small-h1 {
+    font-size: 22px;
+}
+
+}
+
+
+/* new_stl */
+
+@media (max-width: 1199px) {
+section.main-conainer-im li {
+    padding: 10px;
+    margin: 0 0px;
+    font-size: 14px;
+    display: inline-block;
+    vertical-align: middle;
+}
+}
+
+@media (min-width: 1200px) {
+table tr:last-child td {
+    padding-bottom: 10px !important;
+    padding-top: 10px !important;
+}
+
+.main-block.cabinet-block ul.nav.nav-pills li {
+    width: auto !important;
+    margin: 0;
+    padding-left: 10px;
+    padding-right: 10px;
+    display: inline-block; /* позволяем vertical-align выравнивать себя по вертикали */
+    vertical-align: middle; /* и выравниваем */
+        float: none;
+}
+
+.main-block.cabinet-block ul.nav.nav-pills{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    text-align: center;
+    display: block; /* добавляем блочность, если необходимо */
+}
+
+
+div#w0 ul.nav.nav-pills {
+    margin-bottom: 31px !important;
+}
+
+.main-block.cabinet-block .tab-content h1.hidden-xs.panel-title.small-h1 {
+    margin-top: 12px !important;
+}
+
+.accounts-area.tranz-padding.vauch-area {
+    padding-bottom: 26px;
+}
+.main-block.table-akk {
+    padding-bottom: 60px;
+}
+}
+
+
+
+.input-area-table input{
+      font-family: 'ProximaNova-Light';
+}
+@media (min-width: 767px) {
+.accounts-area.accounts .row{
+	padding: 0;
+	margin: 0;
+	list-style: none;
+	text-align: center;
+	display: block;
+
+}
+
+.accounts-area.accounts .row .account-block {
+    padding: 0px;
+    margin: 0;
+    float: none;
+    display: inline-block;
+    vertical-align: middle;
+}
+}
+
+/* new styles */
+
+
+.mxt-10{
+	max-width: 680px;
+}
+
+@media (min-width: 1200px) and (max-width: 1500px){
+body .tabs-container > 	ul.nav.nav-pills li {
+    height: 45px !important;
+    clear: both !important;
+}
+
+body .tabs-container > .nav-pills > li {
+    border-bottom: 3px solid #fff !important;
+}
+
+body .tabs-container > ul.nav.nav-pills li.active {
+    border-bottom: 3px solid #FFC107 !important;
+}
+
+
+body .tabs-container > ul.nav.nav-pills li a {
+    text-align: left !important;
+    font-family: 'ProximaNovaT-Thin' !important font-size: 19px;
+    padding-left: 0 !important;
+}
+
+body .tabs-container > ul.nav.nav-pills li.active a{
+	color: #FFC107 !important;
+	}
+
+body .main-block.cabinet-block .tabs-container > ul.nav.nav-pills li {
+    height: 45px !important;
+    clear: both !important;
+    width: auto !important;
+    padding-left: 0;
+    display: block !important;
+}
+
+.tabs-container > ul.nav.nav-pills {
+    max-width: 806px !important;
+    margin: 0 auto !important;
+    margin-bottom: 48px !important;
+    margin-left: -260px !important;
+    position: absolute !important;
+}
+
+.tabs-container label{
+	text-align: left;
+}
+
+.tabs-container .scroll-in-block .inp-grup-block {
+    position: relative;
+    width: 95%;
+    margin: 0 auto;
+    margin-left: 0;
+}
+
+.tabs-container .summ-form {
+    max-width: 230px;
+    margin: 23px auto;
+    float: left;
+}
+
+.tabs-container .comment-form {
+    clear: both;
+}
+
+.tabs-container .form-block {
+    margin: 0 auto;
+    margin-top: 28px;
+    max-width: 500px;
+    float: left;
+    margin-left: -3px;
+}
+
+.tabs-container {
+    margin-left: 220px;
+}
+
+.tabs-container h1 {
+    text-align: left;
+    margin-left: -4px;
+}
+
+.tabs-container .button_border {
+    float: left;
+    clear: both;
+}
+
+body .main-block.js.class-input .btn-download-area {
+    right: -152px !important;
+    position: absolute !important;
+    top: 35px !important;
+}
+
+.tabs-container h1.small-h1.normal-h1 {
+    margin-left: -4px;
+}
+
+.tabs-container > ul.nav.nav-pills {
+    max-width: 806px;
+    margin: 0 auto;
+    margin-bottom: 48px;
+    margin-left: -225px;
+    position: absolute;
+    margin-top: 30px;
+}
+
+.tabs-container .accounts-area.tranz-padding .account-block {
+    float: left;
+}
+
+.tabs-container .tranz-padding .account-block {
+    width: 279px;
+}
+
+.tabs-container .accounts-area.accounts .row .account-block {
+    float: left;
+}
+
+
+.tabs-container .plat-block.padding-area-plat .row {
+    margin-left: -2px;
+    margin-bottom: 50px;
+    margin-right: -23px;
+}
+
+.tabs-container .block-icons {
+    width: 155.6px;
+    height: 100px;
+    border: 1px solid #b0bec5;
+    float: left;
+    margin-right: 11px;
+    margin-bottom: 11px;
+}
+
+.tabs-container .button_border {
+    min-width: 228px;
+}
+
+.tabs-container .text-center{
+	text-align: left !important;
+}
+
+.tabs-container .form-cabinet {
+    margin-left: 0;
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+}
+
+.tabs-container .center-blocky {
+    float: left;
+}
+.tabs-container > ul.nav.nav-pills li {
+    width: auto !important;
+}
+.tabs-container > ul.nav.nav-pills li a{
+	padding-right: 0 !important;
+}
+
+
+.tabs-container .share-block {
+    float: left;
+    margin-left: 15px;
+}
+
+.tabs-container {
+    margin-left: 232px;
+}
+
+.tabs-container > ul.nav.nav-pills {
+    max-width: 806px !important;
+    margin: 0 auto !important;
+    margin-bottom: 48px !important;
+    margin-left: -227px !important;
+        margin-top: 10px !important;
+    position: absolute !important;
+}
+
+.tabs-container .max-size-690 {
+    float: left;
+}
+
+.tabs-container .form-cabinet {
+    max-width: 100%;
+}
+
+.tabs-container .ntl-tabs textarea.form-control {
+    min-height: 146px !important;
+    width: 100% !important;
+    max-width: 99.9%;
+}
+
+.main-block.cabinet-block .tabs-container h1.hidden-xs.panel-title.small-h1 {
+    margin-top: 0px !important;
+}
+
+.tabs-container .banners-blocks img {
+    float: left;
+}
+
+.tabs-container p.trd.text-center {
+    clear: both;
+}
+
+
+.tabs-container .tranz-padding.style-tabs-partner .account-block {
+    width: 172.5px;
+    margin-left: 4px;
+}
+
+.tabs-container .panel-reviews {
+    margin-top: -12px;
+}
+
+.tabs-container .txt-l {
+    margin-left: 0;
+}
+.tabs-container .text-center {
+    text-align: left !important;
+    margin-left: 0;
+}
+
+.tabs-container .mx-form {
+    max-width: 380px;
+    margin: 0 auto;
+    float: left;
+}
+
+
+.tabs-container .block-operations .col-smx-icon {
+    margin: 0 auto;
+    float: none;
+    margin-bottom: 23px;
+}
+
+
+.tabs-container .clearfix + p.text-center.document-p {
+    margin-left: 15px;
+}
+
+}
+
+@media (min-width: 1200px) and (max-width: 1500px) {
+.tabs-container > ul.nav.nav-pills {
+    max-width: 806px !important;
+    margin: 0 auto !important;
+    margin-bottom: 48px !important;
+    margin-left: -264px !important;
+    position: absolute !important;
+    margin-top: -7px !important;
+}
+.tabs-container .form-cabinet > br {
+    display: none;
+}
+
+.tabs-container .input-area-table {
+    margin-top: 0;
+    padding-top: 0;
+}
+
+.tabs-container .tranz-padding.style-tabs-partner .account-block {
+    width: 170.5px;
+    margin-left: 4px;
+}
+.tabs-container {
+    margin-left: 252px;
+}
+
+
+.tabs-container h2 {
+    margin-top: 2px;
+}
+
+.tabs-container .tranz-padding .account-block {
+    width: 233.3px;
+}
+
+.tabs-container .fll.cms-area {
+    margin-bottom: 10px;
+}
+
+.tabs-container .banners-blocks img {
+    margin-top: 0px;
+    margin-bottom: 19px;
+}
+
+.tabs-container .tranz-padding.style-tabs-partner .account-block {
+    width: 162px;
+    margin-left: 4px;
+}
+
+.small-ns {
+    max-width: 283px;
+}
+
+.form-cabinet br {
+    display: none;
+}
+
+.tabs-container .normal-panel {
+    border: 1px solid #b0bec5;
+    margin-top: 15px;
+}
+
+.tabs-container .tab-block.top-mgn {
+    margin-top: 0px;
+}
+
+.tabs-container .tbl-vb.text-center br {
+    display: none;
+}
+
+.tabs-container button.button.gbnn {
+    width: 119px;
+}
+
+.tabs-container  .status-table.status-nt i {
+    margin-left: 0;
+}
+
+}
