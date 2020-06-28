@@ -1,0 +1,1152 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta charset="UTF-8">
+    <title>html</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- css -->
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i" rel="stylesheet">
+    <link href="plugins/ResponsiveTable/responsivetable.css" rel="stylesheet">
+    <link href="plugins/JQui/jquery-ui.css" rel="stylesheet" />
+    <link href="plugins/BootstrapSelect/bootstrap-select.css" rel="stylesheet" />
+    <link href="css/bootstrap.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet" media="screen">
+    <link href="css/media.css" rel="stylesheet" media="screen">
+    <link rel="stylesheet" href="plugins/CustomScrollbarr/jquery.mCustomScrollbar.css" />
+    <!-- js -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+    <script src="plugins/Bootstrap/bootstrap.js"></script>
+    <script src="plugins/BootstrapSelect/bootstrap-select.js"></script>
+    <script src="plugins/ResponsiveTable/responsivetable.js"></script>
+    <script src="plugins/CustomScrollbarr/jquery.mCustomScrollbar.js"></script>
+</head>
+
+<body>
+    <header>
+        <div class="fll logo"></div>
+        <div class="flr lang-block">
+            <div class="lang-part">
+                <div class="dropdown">
+                    <a href="#" class="dropdown-toggle cabinet-link" data-toggle="dropdown" aria-expanded="true">
+                        <div class="ru_lang"></div>
+                    </a>
+                    <div class="dropdown-menu cabs">
+                        <div class="lang-block-toggle">
+                            <div class="account clearfix">
+                                <ul>
+                                    <li>
+                                        <div class="en_lang"></div>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="flr name-block">
+            <div class="account-block">
+                <div class="top-part">
+                    <div class="dropdown">
+                        <a href="#" class="dropdown-toggle cabinet-link" data-toggle="dropdown" aria-expanded="true">Иван Иванов</a>
+                        <div class="dropdown-menu cabs">
+                            <div class="login-block">
+                                <div class="account clearfix">
+                                    <ul>
+                                        <li>
+                                            <a href="#">Профиль</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">Безопасность</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">Партнерка</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">Мерчант</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">Мой обменник</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">Поддержка</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">Выход</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="navbar navbar-inverse navbar-fixed-top hidden-sm hidden-md hidden-lg">
+            <div class="container">
+                <div class="navbar-header">
+                    <a class="navbar-brand" href="#"></a>
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#responsive-menu">
+                        <span class="sr-only">Открыть</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                </div>
+                <div class="collapse navbar-collapse" id="responsive-menu">
+                    <ul class="nav navbar-nav">
+                        <li class="dropdown">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown">Иван Иванов <b class="caret"></b></a>
+                            <ul class="dropdown-menu">
+                                <li>
+                                    <a href="#">Профиль</a>
+                                </li>
+                                <li>
+                                    <a href="#">Безопасность</a>
+                                </li>
+                                <li>
+                                    <a href="#">Партнерка</a>
+                                </li>
+                                <li>
+                                    <a href="#">Мерчант</a>
+                                </li>
+                                <li>
+                                    <a href="#">Мой обменник</a>
+                                </li>
+                                <li>
+                                    <a href="#">Поддержка</a>
+                                </li>
+                                <li>
+                                    <a href="#">Выход</a>
+                                </li>
+                                <li class="divider"></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="#">Cчета</a>
+                        </li>
+                        <li>
+                            <a href="#">Пополнить</a>
+                        </li>
+                        <li>
+                            <a href="#">Обменять</a>
+                        </li>
+                        <li>
+                            <a href="#">Отправить</a>
+                        </li>
+                        <li>
+                            <a href="#">Оплатить</a>
+                        </li>
+                        <li>
+                            <a href="#">Инвойсы</a>
+                        </li>
+                        <li>
+                            <a href="#">Ваучеры</a>
+                        </li>
+                        <li>
+                            <a href="#">Вывести</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </header>
+    <section class="main-conainer scale4">
+        <div class="container">
+            <ul class="main-navigation">
+                <li>
+                    <a href="">
+                        <div class="i1"></div>
+                        счета
+                    </a>
+                </li>
+                <li class="active">
+                    <a href="">
+                        <div class="i2"></div>пополнить
+                    </a>
+                </li>
+                <li>
+                    <a href="">
+                        <div class="i3"></div>обменять
+                    </a>
+                </li>
+                <li>
+                    <a href="">
+                        <div class="i4"></div>отправить
+                    </a>
+                </li>
+                <li>
+                    <a href="">
+                        <div class="i5"></div>оплатить
+                    </a>
+                </li>
+                <li>
+                    <a href="">
+                        <div class="i6"></div>инвойсы
+                    </a>
+                </li>
+                <li>
+                    <a href="">
+                        <div class="i7"></div>ваучеры
+                    </a>
+                </li>
+                <li>
+                    <a href="">
+                        <div class="i8"></div>вывести
+                    </a>
+                </li>
+            </ul>
+            <div class="main-block">
+                <h1>Пополнение счета</h1>
+                <div class="top-form-blocks">
+                    <div class="col-sm-6">
+                        Отдаете
+                    </div>
+                    <div class="col-sm-6 hidden-xs">
+                        Получаете
+                    </div>
+                </div>
+                <div class="accounts-area form-blocks">
+                    <div class="row">
+                        <div class="account-block">
+                            <input class="form-control" placeholder="Укажите сумму">
+                        </div>
+                        <div class="account-block">
+                            <select class="selectpicker">
+                                <option data-content="<span class='label'><i class='sprite-ico sprite-icon_PAY'></i><strong class='txt-strg'>Payeer USD</strong></span>">Payeer USD</option>
+                                <option data-content="<span class='label'><i class='sprite-ico sprite-icon_OYC'></i><strong class='txt-strg'>Okpay</strong></span>">Okpay</option>
+                                <option data-content="<span class='label'><i class='sprite-ico sprite-icon_PAY'></i><strong class='txt-strg'>Payeer USD</strong></span>">Payeer USD</option>
+                                <option data-content="<span class='label'><i class='sprite-ico sprite-icon_OYC'></i><strong class='txt-strg'>Okpay</strong></span>">Okpay</option>
+                                <option data-content="<span class='label'><i class='sprite-ico sprite-icon_PAY'></i><strong class='txt-strg'>Payeer USD</strong></span>">Payeer USD</option>
+                                <option data-content="<span class='label'><i class='sprite-ico sprite-icon_OYC'></i><strong class='txt-strg'>Okpay</strong></span>">Okpay</option>
+                                <option data-content="<span class='label'><i class='sprite-ico sprite-icon_PAY'></i><strong class='txt-strg'>Payeer USD</strong></span>">Payeer USD</option>
+                                <option data-content="<span class='label'><i class='sprite-ico sprite-icon_OYC'></i><strong class='txt-strg'>Okpay</strong></span>">Okpay</option>
+                                <option data-content="<span class='label'><i class='sprite-ico sprite-icon_OYC'></i><strong class='txt-strg'>Okpay</strong></span>">Okpay</option>
+                                <option data-content="<span class='label'><i class='sprite-ico sprite-icon_PAY'></i><strong class='txt-strg'>Payeer USD</strong></span>">Payeer USD</option>
+                            </select>
+                        </div>
+                        <div class="top-form-blocks  hidden-sm hidden-md hidden-lg">
+                            <div class="col-sm-6">
+                                Получаете
+                            </div>
+                        </div>
+                        <div class="account-block">
+                            <input class="form-control" placeholder="Укажите сумму">
+                        </div>
+                        <div class="account-block">
+                            <select class="selectpicker">
+                                <option data-content="<span class='label'><i class='sprite-ico sprite-icon_OYC'></i><strong class='txt-strg'>Okpay</strong></span>">Okpay</option>
+                                <option data-content="<span class='label'><i class='sprite-ico sprite-icon_PAY'></i><strong class='txt-strg'>Payeer USD</strong></span>">Payeer USD</option>
+                                <option data-content="<span class='label'><i class='sprite-ico sprite-icon_OYC'></i><strong class='txt-strg'>Okpay</strong></span>">Okpay</option>
+                                <option data-content="<span class='label'><i class='sprite-ico sprite-icon_PAY'></i><strong class='txt-strg'>Payeer USD</strong></span>">Payeer USD</option>
+                                <option data-content="<span class='label'><i class='sprite-ico sprite-icon_OYC'></i><strong class='txt-strg'>Okpay</strong></span>">Okpay</option>
+                                <option data-content="<span class='label'><i class='sprite-ico sprite-icon_PAY'></i><strong class='txt-strg'>Payeer USD</strong></span>">Payeer USD</option>
+                                <option data-content="<span class='label'><i class='sprite-ico sprite-icon_OYC'></i><strong class='txt-strg'>Okpay</strong></span>">Okpay</option>
+                                <option data-content="<span class='label'><i class='sprite-ico sprite-icon_PAY'></i><strong class='txt-strg'>Payeer USD</strong></span>">Payeer USD</option>
+                            </select>
+                        </div>
+                    </div>
+                </div>
+                <div class="toggle-blocks first-block" style="display: block;">
+                    <div class="plat-block">
+                        <h1 class="small-h1">Payment systems</h1>
+                        <div class="row">
+                            <div class="block-icons" type="OTHER" data="OKP">
+                                <div class="block-icons-in">
+                                    <div class="block-img">
+                                        <i class="sprite-ico sprite-icon_OYC"></i>
+                                    </div>
+                                    <div class="p-block">Okpay</div>
+                                </div>
+                            </div>
+                            <div class="block-icons" type="OTHER" data="PAY">
+                                <div class="block-icons-in">
+                                    <div class="block-img">
+                                        <i class="sprite-ico sprite-icon_PAY"></i>
+                                    </div>
+                                    <div class="p-block">Payeer USD</div>
+                                </div>
+                            </div>
+                            <div class="block-icons" type="OTHER" data="PER">
+                                <div class="block-icons-in">
+                                    <div class="block-img">
+                                        <i class="sprite-ico  sprite-icon_PYU"></i>
+                                    </div>
+                                    <div class="p-block">Perfect USD</div>
+                                </div>
+                            </div>
+                            <div class="block-icons" type="OTHER" data="WL1">
+                                <div class="block-icons-in">
+                                    <div class="block-img">
+                                        <i class="sprite-ico sprite-icon_WL1"></i>
+                                    </div>
+                                    <div class="p-block">W1 EUR</div>
+                                </div>
+                            </div>
+                            <div class="block-icons" type="OTHER" data="WTF">
+                                <div class="block-icons-in">
+                                    <div class="block-img">
+                                        <i class="sprite-ico sprite-icon_WTF"></i>
+                                    </div>
+                                    <div class="p-block">webfin</div>
+                                </div>
+                            </div>
+                            <div class="block-icons" type="OTHER" data="WTC">
+                                <div class="block-icons-in">
+                                    <div class="block-img">
+                                        <i class="sprite-ico sprite-icon_MCH"></i>
+                                    </div>
+                                    <div class="p-block">wtcard</div>
+                                </div>
+                            </div>
+                            <div class="block-icons" type="OTHER" data="LVP">
+                                <div class="block-icons-in">
+                                    <div class="block-img">
+                                        <i class="sprite-ico sprite-icon_LYL"></i>
+                                    </div>
+                                    <div class="p-block">lavapay</div>
+                                </div>
+                            </div>
+                            <div class="block-icons" type="OTHER" data="ADV">
+                                <div class="block-icons-in">
+                                    <div class="block-img">
+                                        <i class="sprite-ico sprite-icon_ADV"></i>
+                                    </div>
+                                    <div class="p-block">advcash</div>
+                                </div>
+                            </div>
+                            <div class="block-icons" type="OTHER" data="CAM">
+                                <div class="block-icons-in">
+                                    <div class="block-img">
+                                        <i class="sprite-ico sprite-icon_CAM"></i>
+                                    </div>
+                                    <div class="p-block">camelot</div>
+                                </div>
+                            </div>
+                            <div class="block-icons" type="OTHER" data="BTC">
+                                <div class="block-icons-in">
+                                    <div class="block-img">
+                                        <i class="sprite-ico sprite-icon_BTC"></i>
+                                    </div>
+                                    <div class="p-block">bitcoin</div>
+                                </div>
+                            </div>
+                            <div class="block-icons" type="OTHER" data="EXO">
+                                <div class="block-icons-in">
+                                    <div class="block-img">
+                                        <i class="sprite-ico sprite-icon_EXO"></i>
+                                    </div>
+                                    <div class="p-block">exmo</div>
+                                </div>
+                            </div>
+                            <div class="block-icons" type="OTHER" data="BTE">
+                                <div class="block-icons-in">
+                                    <div class="block-img">
+                                        <i class="sprite-ico sprite-icon_BTE"></i>
+                                    </div>
+                                    <div class="p-block">btce</div>
+                                </div>
+                            </div>
+                            <div class="block-icons" type="OTHER" data="PPL">
+                                <div class="block-icons-in">
+                                    <div class="block-img">
+                                        <i class="sprite-ico sprite-icon_PPL"></i>
+                                    </div>
+                                    <div class="p-block">paypal</div>
+                                </div>
+                            </div>
+                            <div class="block-icons" type="OTHER" data="DBC">
+                                <div class="block-icons-in">
+                                    <div class="block-img">
+                                        <i class="sprite-ico sprite-icon_DBC"></i>
+                                    </div>
+                                    <div class="p-block">wtdebitcoin</div>
+                                </div>
+                            </div>
+                            <div class="block-icons" type="OTHER" data="PPC">
+                                <div class="block-icons-in">
+                                    <div class="block-img">
+                                        <i class="sprite-ico sprite-icon_PPC"></i>
+                                    </div>
+                                    <div class="p-block">payinpayoutcards</div>
+                                </div>
+                            </div>
+                            <div class="block-icons" type="OTHER" data="NYM">
+                                <div class="block-icons-in">
+                                    <div class="block-img">
+                                        <i class="sprite-ico sprite-icon_NYM"></i>
+                                    </div>
+                                    <div class="p-block">nixmoney</div>
+                                </div>
+                            </div>
+                            <div class="block-icons" type="OTHER" data="QIW">
+                                <div class="block-icons-in">
+                                    <div class="block-img">
+                                        <i class="sprite-ico sprite-icon_QWI"></i>
+                                    </div>
+                                    <div class="p-block">Qiwi USD</div>
+                                </div>
+                            </div>
+                            <div class="block-icons" type="OTHER" data="PSC">
+                                <div class="block-icons-in">
+                                    <div class="block-img">
+                                        <i class="sprite-ico sprite-icon_PSC"></i>
+                                    </div>
+                                    <div class="p-block">paysafecard</div>
+                                </div>
+                            </div>
+                            <div class="block-icons" type="OTHER" data="GIR">
+                                <div class="block-icons-in">
+                                    <div class="block-img">
+                                        <i class="sprite-ico sprite-icon_GIR"></i>
+                                    </div>
+                                    <div class="p-block">giropay</div>
+                                </div>
+                            </div>
+                            <div class="block-icons" type="OTHER" data="EUT">
+                                <div class="block-icons-in">
+                                    <div class="block-img">
+                                        <i class="sprite-ico sprite-icon_EUT"></i>
+                                    </div>
+                                    <div class="p-block">euteller</div>
+                                </div>
+                            </div>
+                            <div class="block-icons" type="OTHER" data="BLK">
+                                <div class="block-icons-in">
+                                    <div class="block-img">
+                                        <i class="sprite-ico sprite-icon_BLK"></i>
+                                    </div>
+                                    <div class="p-block">banklink</div>
+                                </div>
+                            </div>
+                            <div class="block-icons" type="OTHER" data="MLB">
+                                <div class="block-icons-in">
+                                    <div class="block-img">
+                                        <i class="sprite-ico sprite-icon_MLB"></i>
+                                    </div>
+                                    <div class="p-block">multibanco</div>
+                                </div>
+                            </div>
+                            <div class="block-icons" type="OTHER" data="EPA">
+                                <div class="block-icons-in">
+                                    <div class="block-img">
+                                        <i class="sprite-ico sprite-icon_EPA"></i>
+                                    </div>
+                                    <div class="p-block">epay</div>
+                                </div>
+                            </div>
+                            <div class="block-icons" type="OTHER" data="SPO">
+                                <div class="block-icons-in">
+                                    <div class="block-img">
+                                        <i class="sprite-ico sprite-icon_SPO"></i>
+                                    </div>
+                                    <div class="p-block">sporopay</div>
+                                </div>
+                            </div>
+                            <div class="block-icons" type="OTHER" data="ABQ">
+                                <div class="block-icons-in">
+                                    <div class="block-img">
+                                        <i class="sprite-ico sprite-icon_ABQ"></i>
+                                    </div>
+                                    <div class="p-block">abaqoos</div>
+                                </div>
+                            </div>
+                            <div class="block-icons" type="OTHER" data="NEO">
+                                <div class="block-icons-in">
+                                    <div class="block-img">
+                                        <i class="sprite-ico sprite-icon_NEO"></i>
+                                    </div>
+                                    <div class="p-block">neosurf</div>
+                                </div>
+                            </div>
+                            <div class="block-icons" type="OTHER" data="MRC">
+                                <div class="block-icons-in">
+                                    <div class="block-img">
+                                        <i class="sprite-ico sprite-icon_MRC"></i>
+                                    </div>
+                                    <div class="p-block">mistercash</div>
+                                </div>
+                            </div>
+                            <div class="block-icons" type="OTHER" data="SOF">
+                                <div class="block-icons-in">
+                                    <div class="block-img">
+                                        <i class="sprite-ico sprite-icon_SOF"></i>
+                                    </div>
+                                    <div class="p-block">sofort</div>
+                                </div>
+                            </div>
+                            <div class="block-icons" type="OTHER" data="ALI">
+                                <div class="block-icons-in">
+                                    <div class="block-img">
+                                        <i class="sprite-ico sprite-icon_ALI"></i>
+                                    </div>
+                                    <div class="p-block">alipay</div>
+                                </div>
+                            </div>
+                            <div class="block-icons" type="OTHER" data="EPS">
+                                <div class="block-icons-in">
+                                    <div class="block-img">
+                                        <i class="sprite-ico sprite-icon_EPS"></i>
+                                    </div>
+                                    <div class="p-block">eps</div>
+                                </div>
+                            </div>
+                            <div class="block-icons" type="OTHER" data="SYE">
+                                <div class="block-icons-in">
+                                    <div class="block-img">
+                                        <i class="sprite-ico sprite-icon_SYE"></i>
+                                    </div>
+                                    <div class="p-block">solidtrustpay</div>
+                                </div>
+                            </div>
+                            <div class="block-icons" type="OTHER" data="LOT">
+                                <div class="block-icons-in">
+                                    <div class="block-img">
+                                        <i class="sprite-ico sprite-icon_LOT"></i>
+                                    </div>
+                                    <div class="p-block">ltinvite</div>
+                                </div>
+                            </div>
+                            <div class="block-icons active" type="OTHER" data="QWI">
+                                <div class="block-icons-in">
+                                    <div class="block-img">
+                                        <i class="sprite-ico sprite-icon_QWI"></i>
+                                    </div>
+                                    <div class="p-block">Qiwi RUB</div>
+                                </div>
+                            </div>
+                            <div class="block-icons" type="OTHER" data="TNB">
+                                <div class="block-icons-in">
+                                    <div class="block-img">
+                                        <i class="sprite-ico sprite-icon_TNB"></i>
+                                    </div>
+                                    <div class="p-block">Tinkoff RUB</div>
+                                </div>
+                            </div>
+                            <div class="block-icons" type="OTHER" data="ALF">
+                                <div class="block-icons-in">
+                                    <div class="block-img">
+                                        <i class="sprite-ico sprite-icon_ALF"></i>
+                                    </div>
+                                    <div class="p-block">AlfaBank RUB</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="plat-block">
+                        <h1 class="small-h1">Bank</h1>
+                        <div class="row">
+                            <div class="block-icons" type="bank" data="SSX">
+                                <div class="block-icons-in">
+                                    <div class="block-img">
+                                        <i class="sprite-ico sprite-icon_SSX"></i>
+                                    </div>
+                                    <div class="p-block">Sberbank RUB</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <div class="container">
+            <div class="top-footer">
+                <div class="ft1 fll">
+                    <ul>
+                        <li><a href="#">О компании</a></li>
+                        <li><a href="#">Карта</a></li>
+                        <li><a href="#">Тарифы</a></li>
+                        <li><a href="#">FAQ’s</a></li>
+                    </ul>
+                </div>
+                <div class="ft2 fll">
+                    <ul>
+                        <li><a href="#">Соглашение</a></li>
+                        <li><a href="#">Партнёрам</a></li>
+                        <li><a href="#">Обменикам</a></li>
+                        <li><a href="#">Разработчикам</a></li>
+                    </ul>
+                </div>
+                <div class="ft3 fll">
+                    <ul>
+                        <li><a href="#">FATCA</a></li>
+                        <li><a href="#">ALM Политика</a></li>
+                        <li><a href="#">Конфиденциальность</a></li>
+                        <li><a href="#">Приемлемое использование</a></li>
+                    </ul>
+                </div>
+                <div class="ft4 fll">
+                    <ul>
+                        <li><a href="#">Поддержка</a></li>
+                        <li><a href="#">Контакты</a></li>
+                    </ul>
+                </div>
+                <div class="ft5 flr">
+                    <div class="social-top">
+                        <div class="l1"></div>
+                        <div class="l2"></div>
+                        <div class="l3"></div>
+                    </div>
+                    <div class="clearfix"></div>
+                    <div class="social-bottom">
+                        <a href="#">
+                            <div class="soc1"></div>
+                        </a>
+                        <a href="#">
+                            <div class="soc2"></div>
+                        </a>
+                        <a href="#">
+                            <div class="soc3"></div>
+                        </a>
+                        <a href="#">
+                            <div class="soc4"></div>
+                        </a>
+                        <a href="#">
+                            <div class="soc5"></div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="clearfix"></div>
+            <div class="bottom-footer">
+                <p>Cifron is a trading name of Camelot LLC. Camelot LLC is authorized and regulated as an E-money Issuer and Payment Service Provider by the National Bank of Georgia with the reference # 0051-9004. <br>
+                    Camelot LLC International Financial Company certificate # 4224213. USA IRS FATCA GIIN (Global Intermediary Identification Number) T72UGX.99999.SL.268 .</p>
+                <div class="pos-abs-footer">
+                    All rights reserved Cifron, 2017
+                </div>
+            </div>
+        </div>
+    </footer>
+    <style>
+    .sprite-icon_ABQ {
+        width: 30px;
+        height: 30px;
+        background-position: -5px -5px;
+    }
+
+    .sprite-icon_ADV {
+        width: 30px;
+        height: 30px;
+        background-position: -5px -45px;
+    }
+
+    .sprite-icon_AHH {
+        width: 30px;
+        height: 30px;
+        background-position: -5px -85px;
+    }
+
+    .sprite-icon_ALI {
+        width: 30px;
+        height: 30px;
+        background-position: -5px -125px;
+    }
+
+    .sprite-icon_AVT {
+        width: 30px;
+        height: 30px;
+        background-position: -5px -165px;
+    }
+
+    .sprite-icon_AYH {
+        width: 30px;
+        height: 30px;
+        background-position: -5px -205px;
+    }
+
+    .sprite-icon_BEL {
+        width: 30px;
+        height: 30px;
+        background-position: -5px -245px;
+    }
+
+    .sprite-icon_BES {
+        width: 30px;
+        height: 30px;
+        background-position: -5px -285px;
+    }
+
+    .sprite-icon_BLK {
+        width: 30px;
+        height: 30px;
+        background-position: -5px -325px;
+    }
+
+    .sprite-icon_BTC {
+        width: 30px;
+        height: 30px;
+        background-position: -5px -365px;
+    }
+
+    .sprite-icon_BTE {
+        width: 30px;
+        height: 30px;
+        background-position: -5px -405px;
+    }
+
+    .sprite-icon_CAM {
+        width: 30px;
+        height: 30px;
+        background-position: -5px -445px;
+    }
+
+    .sprite-icon_CHV {
+        width: 30px;
+        height: 30px;
+        background-position: -5px -485px;
+    }
+
+    .sprite-icon_CRD {
+        width: 30px;
+        height: 30px;
+        background-position: -5px -525px;
+    }
+
+    .sprite-icon_CTC {
+        width: 30px;
+        height: 30px;
+        background-position: -5px -565px;
+    }
+
+    .sprite-icon_CTL {
+        width: 30px;
+        height: 30px;
+        background-position: -5px -605px;
+    }
+
+    .sprite-icon_CTX {
+        width: 30px;
+        height: 30px;
+        background-position: -5px -645px;
+    }
+
+    .sprite-icon_DBC {
+        width: 30px;
+        height: 30px;
+        background-position: -5px -685px;
+    }
+
+    .sprite-icon_ECI {
+        width: 30px;
+        height: 30px;
+        background-position: -5px -725px;
+    }
+
+    .sprite-icon_EEN {
+        width: 30px;
+        height: 30px;
+        background-position: -5px -765px;
+    }
+
+    .sprite-icon_EKONTO {
+        width: 30px;
+        height: 30px;
+        background-position: -5px -805px;
+    }
+
+    .sprite-icon_EOO {
+        width: 30px;
+        height: 30px;
+        background-position: -5px -845px;
+    }
+
+    .sprite-icon_EPA {
+        width: 30px;
+        height: 30px;
+        background-position: -5px -885px;
+    }
+
+    .sprite-icon_EPS {
+        width: 30px;
+        height: 30px;
+        background-position: -5px -925px;
+    }
+
+    .sprite-icon_ESP {
+        width: 30px;
+        height: 30px;
+        background-position: -5px -965px;
+    }
+
+    .sprite-icon_EUT {
+        width: 30px;
+        height: 30px;
+        background-position: -5px -1005px;
+    }
+
+    .sprite-icon_EUW {
+        width: 30px;
+        height: 30px;
+        background-position: -5px -1045px;
+    }
+
+    .sprite-icon_EXO {
+        width: 30px;
+        height: 30px;
+        background-position: -5px -1085px;
+    }
+
+    .sprite-icon_EYQ {
+        width: 30px;
+        height: 30px;
+        background-position: -5px -1125px;
+    }
+
+    .sprite-icon_FYM {
+        width: 30px;
+        height: 30px;
+        background-position: -5px -1165px;
+    }
+
+    .sprite-icon_GIR {
+        width: 30px;
+        height: 30px;
+        background-position: -5px -1205px;
+    }
+
+    .sprite-icon_IDEAL {
+        width: 30px;
+        height: 30px;
+        background-position: -5px -1245px;
+    }
+
+    .sprite-icon_KBC {
+        width: 30px;
+        height: 30px;
+        background-position: -5px -1285px;
+    }
+
+    .sprite-icon_LOT {
+        width: 30px;
+        height: 30px;
+        background-position: -5px -1325px;
+    }
+
+    .sprite-icon_LYL {
+        width: 30px;
+        height: 30px;
+        background-position: -5px -1365px;
+    }
+
+    .sprite-icon_MCH {
+        width: 30px;
+        height: 30px;
+        background-position: -5px -1405px;
+    }
+
+    .sprite-icon_MLB {
+        width: 30px;
+        height: 30px;
+        background-position: -5px -1445px;
+    }
+
+    .sprite-icon_MMZ {
+        width: 30px;
+        height: 30px;
+        background-position: -5px -1485px;
+    }
+
+    .sprite-icon_MODERATOR {
+        width: 30px;
+        height: 30px;
+        background-position: -5px -1525px;
+    }
+
+    .sprite-icon_MOX {
+        width: 30px;
+        height: 30px;
+        background-position: -5px -1565px;
+    }
+
+    .sprite-icon_MRC {
+        width: 30px;
+        height: 30px;
+        background-position: -5px -1605px;
+    }
+
+    .sprite-icon_NEO {
+        width: 30px;
+        height: 30px;
+        background-position: -5px -1645px;
+    }
+
+    .sprite-icon_NRC {
+        width: 30px;
+        height: 30px;
+        background-position: -5px -1685px;
+    }
+
+    .sprite-icon_NYM {
+        width: 30px;
+        height: 30px;
+        background-position: -5px -1725px;
+    }
+
+    .sprite-icon_OBM2 {
+        width: 30px;
+        height: 30px;
+        background-position: -5px -1765px;
+    }
+
+    .sprite-icon_OYC {
+        width: 30px;
+        height: 30px;
+        background-position: -5px -1805px;
+    }
+
+    .sprite-icon_OYT {
+        width: 30px;
+        height: 30px;
+        background-position: -5px -1845px;
+    }
+
+    .sprite-icon_P24 {
+        width: 30px;
+        height: 30px;
+        background-position: -5px -1885px;
+    }
+
+    .sprite-icon_PAC {
+        width: 30px;
+        height: 30px;
+        background-position: -5px -1925px;
+    }
+
+    .sprite-icon_PAX {
+        width: 30px;
+        height: 30px;
+        background-position: -5px -1965px;
+    }
+
+    .sprite-icon_PAY {
+        width: 30px;
+        height: 30px;
+        background-position: -5px -2005px;
+    }
+
+    .sprite-icon_PLD {
+        width: 30px;
+        height: 30px;
+        background-position: -5px -2045px;
+    }
+
+    .sprite-icon_PMG {
+        width: 30px;
+        height: 30px;
+        background-position: -5px -2085px;
+    }
+
+    .sprite-icon_PPC {
+        width: 30px;
+        height: 30px;
+        background-position: -5px -2125px;
+    }
+
+    .sprite-icon_PPL {
+        width: 30px;
+        height: 30px;
+        background-position: -5px -2165px;
+    }
+
+    .sprite-icon_PRU {
+        width: 30px;
+        height: 30px;
+        background-position: -5px -2205px;
+    }
+
+    .sprite-icon_PRZ {
+        width: 30px;
+        height: 30px;
+        background-position: -5px -2245px;
+    }
+
+    .sprite-icon_PSC {
+        width: 30px;
+        height: 30px;
+        background-position: -5px -2285px;
+    }
+
+    .sprite-icon_PYU {
+        width: 30px;
+        height: 30px;
+        background-position: -5px -2325px;
+    }
+
+    .sprite-icon_QWI {
+        width: 30px;
+        height: 30px;
+        background-position: -5px -2365px;
+    }
+
+    .sprite-icon_QIWI_TERMINALS {
+        width: 30px;
+        height: 30px;
+        background-position: -5px -2405px;
+    }
+
+    .sprite-icon_REJECT {
+        width: 30px;
+        height: 30px;
+        background-position: -5px -2445px;
+    }
+
+    .sprite-icon_SLN {
+        width: 30px;
+        height: 30px;
+        background-position: -5px -2485px;
+    }
+
+    .sprite-icon_SOF {
+        width: 30px;
+        height: 30px;
+        background-position: -5px -2525px;
+    }
+
+    .sprite-icon_SPO {
+        width: 30px;
+        height: 30px;
+        background-position: -5px -2565px;
+    }
+
+    .sprite-icon_SSX {
+        width: 30px;
+        height: 30px;
+        background-position: -5px -2605px;
+    }
+
+    .sprite-icon_SYE {
+        width: 30px;
+        height: 30px;
+        background-position: -5px -2645px;
+    }
+
+    .sprite-icon_UME {
+        width: 30px;
+        height: 30px;
+        background-position: -5px -2685px;
+    }
+
+    .sprite-icon_VISA_MASTERCARD {
+        width: 30px;
+        height: 30px;
+        background-position: -5px -2725px;
+    }
+
+    .sprite-icon_W1G {
+        width: 30px;
+        height: 30px;
+        background-position: -5px -2765px;
+    }
+
+    .sprite-icon_WAITING {
+        width: 30px;
+        height: 30px;
+        background-position: -5px -2805px;
+    }
+
+    .sprite-icon_WL1 {
+        width: 30px;
+        height: 30px;
+        background-position: -5px -2845px;
+    }
+
+    .sprite-icon_WNM {
+        width: 30px;
+        height: 30px;
+        background-position: -5px -2885px;
+    }
+
+    .sprite-icon_WTF {
+        width: 30px;
+        height: 30px;
+        background-position: -5px -2925px;
+    }
+
+    .sprite-icon_ava {
+        width: 30px;
+        height: 30px;
+        background-position: -5px -2965px;
+    }
+
+    .sprite-icon_gaz {
+        width: 30px;
+        height: 30px;
+        background-position: -5px -3005px;
+    }
+
+    .sprite-icon_psb {
+        width: 30px;
+        height: 30px;
+        background-position: -5px -3045px;
+    }
+
+    .sprite-icon_rfz {
+        width: 30px;
+        height: 30px;
+        background-position: -5px -3085px;
+    }
+
+    .sprite-icon_uni {
+        width: 30px;
+        height: 30px;
+        background-position: -5px -3125px;
+    }
+
+    .sprite-icon_vtb {
+        width: 30px;
+        height: 30px;
+        background-position: -5px -3165px;
+    }
+
+    .sprite-icon_PYU {
+        width: 30px;
+        height: 30px;
+        background-position: -5px -2325px;
+    }
+
+    .sprite-icon_ALF {
+        width: 30px;
+        height: 30px;
+        background-position: -5px -1285px;
+    }
+
+    i.sprite-ico.sprite-icon_TNB {
+        width: 30px;
+        height: 30px;
+        background-position: -5px -3085px;
+    }
+    </style>
+    <script>
+    window.onload = function() {
+        $('.date-area').show()
+    };
+
+
+
+    jQuery(function($) {
+        $('.table').footable();
+    });
+    </script>
+    <!-- общие скрипты -->
+    <script src="js/scripts.js"></script>
+    <!-- инициализация скриптов-->
+    <script>
+    (function($) {
+        $(window).load(function() {
+
+            $("ul.dropdown-menu.inner").mCustomScrollbar({
+                setHeight: 80,
+                theme: "dark",
+            });
+
+        });
+    })(jQuery);
+    </script>
+</body>
+
+</html>
